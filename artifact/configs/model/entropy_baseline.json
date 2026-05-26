@@ -1,0 +1,26 @@
+{
+  "model": {
+    "name": "entropy_threshold_baseline",
+    "input_view": "region_training_labels",
+    "labels": [
+      "benign",
+      "hidden_executable_payload"
+    ]
+  },
+  "scoring": {
+    "entropy_threshold": 7.0,
+    "entropy_weight": 1.0,
+    "nonprintable_weight": 0.0
+  },
+  "aggregation": {
+    "region_to_object": "max_score",
+    "object_to_apk": "max_score",
+    "predicted_offset_range": "span_of_predicted_positive_regions"
+  },
+  "outputs": {
+    "region_predictions_jsonl": "outputs/predictions/entropy.region_predictions.jsonl",
+    "object_predictions_jsonl": "outputs/predictions/entropy.object_predictions.jsonl",
+    "apk_predictions_jsonl": "outputs/predictions/entropy.apk_predictions.jsonl",
+    "report_json": "outputs/reports/entropy_baseline_report.json"
+  }
+}

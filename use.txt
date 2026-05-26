@@ -1,0 +1,68 @@
+PseudoHunter Artifact Usage
+===========================
+
+Intended use
+------------
+
+This artifact is intended for ACSAC artifact review of the PseudoHunter paper.
+It supports two evaluation modes:
+
+  1. A lightweight reviewer path that installs the package and validates the
+     paper's main numeric claims from shipped result JSON files.
+  2. Optional inspection or re-execution of the experiment scripts by reviewers
+     who have independently obtained the required APK corpora and checkpoints.
+
+Quick reviewer path
+-------------------
+
+1. Install
+
+   bash install.sh
+
+   If the system default `python` is too new for numpy/scikit-learn wheels, use
+   a supported interpreter explicitly:
+
+   PYTHON=python3.11 bash install.sh
+
+2. Run lightweight claim verifiers
+
+   bash claims/claim1_lopo_main/run.sh
+   bash claims/claim2_path_ablation/run.sh
+   bash claims/claim3_hard_benign_repair/run.sh
+   bash claims/claim4_smoke_pipeline/run.sh
+
+3. What each claim checks
+
+   claim1_lopo_main:
+     Verifies the main 7-fold LOPO result for routed three-path PseudoHunter
+     with path dropout. Expected mean APK AUROC is 0.9582.
+
+   claim2_path_ablation:
+     Verifies the path-ablation table: naive three-path underperforms
+     Dalvik+byte, while routed three-path plus dropout is strongest.
+
+   claim3_hard_benign_repair:
+     Verifies the strict DPT-v2 hard-benign repair: the no-hard-benign split
+     has AUROC 0.6000, while F-Droid24 hard-benign training reaches AUROC
+     0.9280 and lowers benign mean score to 0.1661.
+
+   claim4_smoke_pipeline:
+     Runs a small Python import/test smoke check to confirm that the package and
+     artifact verifier are usable in the review environment.
+
+Limitations
+-----------
+
+The quick claim scripts reproduce the reported metrics from result JSON files;
+they do not retrain the neural models. Full model pretraining and LOPO
+re-training are not the default quick path because they require APK
+corpora/checkpoints not redistributed in this artifact. The working scripts are
+included for inspection and optional re-execution by reviewers who have
+obtained the data under the original dataset terms.
+
+Resource expectations
+---------------------
+
+The quick verifier path needs Python 3.9+ and CPU only. Installation time
+depends on pip network/cache state; each claim verifier should run in seconds.
+Full training may require CUDA-capable GPU resources and longer wall-clock time.

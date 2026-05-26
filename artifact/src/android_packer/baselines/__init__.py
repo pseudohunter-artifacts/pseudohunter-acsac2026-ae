@@ -1,0 +1,141 @@
+"""Baseline detectors and classifiers."""
+
+from android_packer.baselines.apkid import (
+    ApkidApkPrediction,
+    ApkidBaselineConfig,
+    ApkidBaselineResult,
+    ApkidMatch,
+    ApkidNotInstalledError,
+    run_apkid_baseline,
+)
+from android_packer.baselines.byte_cnn import (
+    ByteCnnApkPrediction,
+    ByteCnnBaselineConfig,
+    ByteCnnModel,
+    ByteCnnObjectPrediction,
+    ByteCnnRegionPrediction,
+    ByteCnnResult,
+    run_byte_cnn_baseline,
+    train_byte_cnn,
+)
+from android_packer.baselines.entropy import (
+    ApkPrediction,
+    EntropyBaselineConfig,
+    EntropyBaselineResult,
+    ObjectPrediction,
+    RegionPrediction,
+    run_entropy_baseline,
+    score_region,
+)
+from android_packer.baselines.mil_byte_cnn_fusion import (
+    MilByteCnnFusionApkPrediction,
+    MilByteCnnFusionConfig,
+    MilByteCnnFusionObjectPrediction,
+    MilByteCnnFusionRegionPrediction,
+    MilByteCnnFusionResult,
+    fuse_mil_and_byte_cnn_results,
+)
+from android_packer.baselines.ngram_logreg import (
+    NgramLogRegApkPrediction,
+    NgramLogRegConfig,
+    NgramLogRegModel,
+    NgramLogRegObjectPrediction,
+    NgramLogRegRegionPrediction,
+    NgramLogRegResult,
+    train_ngram_logreg,
+)
+from android_packer.baselines.ours import (
+    OursApkPrediction,
+    OursBaselineConfig,
+    OursBaselineModel,
+    OursObjectPrediction,
+    OursRegionPrediction,
+    OursResult,
+    run_ours_baseline,
+    train_ours_baseline,
+    train_ours_baseline_from_objects,
+)
+from android_packer.baselines.payload_hunter_lite import (
+    PayloadHunterLiteApkPrediction,
+    PayloadHunterLiteConfig,
+    PayloadHunterLiteModel,
+    PayloadHunterLiteObjectPrediction,
+    PayloadHunterLiteRegionPrediction,
+    PayloadHunterLiteResult,
+    run_payload_hunter_lite_baseline,
+    train_payload_hunter_lite,
+)
+from android_packer.baselines.sanity_rules import (
+    SanityRulesApkPrediction,
+    SanityRulesConfig,
+    SanityRulesObjectPrediction,
+    SanityRulesRegionPrediction,
+    SanityRulesResult,
+    run_sanity_rules_baseline,
+)
+
+__all__ = [
+    "ApkPrediction",
+    "ApkidApkPrediction",
+    "ApkidBaselineConfig",
+    "ApkidBaselineResult",
+    "ApkidMatch",
+    "ApkidNotInstalledError",
+    "EntropyBaselineConfig",
+    "EntropyBaselineResult",
+    "ByteCnnApkPrediction",
+    "ByteCnnBaselineConfig",
+    "ByteCnnModel",
+    "ByteCnnObjectPrediction",
+    "ByteCnnRegionPrediction",
+    "ByteCnnResult",
+    "NgramLogRegApkPrediction",
+    "NgramLogRegConfig",
+    "NgramLogRegModel",
+    "NgramLogRegObjectPrediction",
+    "NgramLogRegRegionPrediction",
+    "NgramLogRegResult",
+    "MilByteCnnFusionApkPrediction",
+    "MilByteCnnFusionConfig",
+    "MilByteCnnFusionObjectPrediction",
+    "MilByteCnnFusionRegionPrediction",
+    "MilByteCnnFusionResult",
+    "ObjectPrediction",
+    "RegionPrediction",
+    "SanityRulesApkPrediction",
+    "SanityRulesConfig",
+    "SanityRulesObjectPrediction",
+    "SanityRulesRegionPrediction",
+    "SanityRulesResult",
+    "run_apkid_baseline",
+    "run_byte_cnn_baseline",
+    "run_entropy_baseline",
+    "fuse_mil_and_byte_cnn_results",
+    "run_sanity_rules_baseline",
+    "score_region",
+    "train_byte_cnn",
+    "train_ngram_logreg",
+    # PayloadHunter-Lite baseline (F-Lite-c, now Stage A ablation
+    # baseline; Ours (F-MIL-*) is the main method from 2026-05-06
+    # onwards).  See ``docs/method/ours_method_spec.md`` §11 / §12.
+    "PayloadHunterLiteApkPrediction",
+    "PayloadHunterLiteConfig",
+    "PayloadHunterLiteModel",
+    "PayloadHunterLiteObjectPrediction",
+    "PayloadHunterLiteRegionPrediction",
+    "PayloadHunterLiteResult",
+    "run_payload_hunter_lite_baseline",
+    "train_payload_hunter_lite",
+    # Ours (Typed-Instance MIL) baseline (F-MIL-e).
+    # Report shape is field-compatible with NgramLogReg / PayloadHunter-Lite
+    # per ``docs/method/ours_method_spec.md`` §8 contract.
+    "OursApkPrediction",
+    "OursBaselineConfig",
+    "OursBaselineModel",
+    "OursObjectPrediction",
+    "OursRegionPrediction",
+    "OursResult",
+    "run_ours_baseline",
+    "train_ours_baseline",
+    "train_ours_baseline_from_objects",
+]

@@ -1,0 +1,4129 @@
+{
+  "failures": [],
+  "generated_by": "scripts/data/build_hard_benign_manifest.py",
+  "records": [
+    {
+      "all_hits": [
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\track_b\\benign\\com.fsck.k9_39035.apk",
+          "hit": "Resources Confusion"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\com.fsck.k9_39035.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\com.fsck.k9_39035.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\com.fsck.k9_39035.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\com.fsck.k9_39035.apk!classes2.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 77,
+      "compressed_entry_count": 888,
+      "dex_count": 2,
+      "entry_count": 1087,
+      "file_name": "com.fsck.k9_39035.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": true
+      },
+      "hardness_score": 6,
+      "high_entropy_entry_count": 0,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 9349648,
+      "local_path": "data/real_world/track_b/benign/com.fsck.k9_39035.apk",
+      "max_sampled_entry_entropy": 7.9593,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 8,
+      "packer_like_hits": [],
+      "resource_count": 972,
+      "schema_version": 1,
+      "sha256": "1381c04bd9619749ed965c9f26fe8de8196e2b0dbb8a4eda345f99d19dfed43b",
+      "size_bytes": 9936080,
+      "source": "track_b_fdroid_benign",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 5
+    },
+    {
+      "all_hits": [
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\track_b\\benign\\com.kunzisoft.keepass.libre_154.apk",
+          "hit": "Resources Confusion"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\com.kunzisoft.keepass.libre_154.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\com.kunzisoft.keepass.libre_154.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\com.kunzisoft.keepass.libre_154.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\com.kunzisoft.keepass.libre_154.apk!classes2.dex",
+          "hit": "r8 without marker (suspicious)"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\com.kunzisoft.keepass.libre_154.apk!classes3.dex",
+          "hit": "r8 without marker (suspicious)"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 4,
+      "compressed_entry_count": 1750,
+      "dex_count": 3,
+      "entry_count": 3324,
+      "file_name": "com.kunzisoft.keepass.libre_154.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": true
+      },
+      "hardness_score": 6,
+      "high_entropy_entry_count": 3,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 9400636,
+      "local_path": "data/real_world/track_b/benign/com.kunzisoft.keepass.libre_154.apk",
+      "max_sampled_entry_entropy": 7.9966,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 8,
+      "packer_like_hits": [],
+      "resource_count": 2572,
+      "schema_version": 1,
+      "sha256": "6600201e3198dd0ae37d5a1b117c5692142ce5fcbe57ccdd1f82e9404237e6e2",
+      "size_bytes": 16696171,
+      "source": "track_b_fdroid_benign",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 665
+    },
+    {
+      "all_hits": [
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\track_b\\benign\\com.termux_1002.apk",
+          "hit": "Resources Confusion"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\com.termux_1002.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\com.termux_1002.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\com.termux_1002.apk!classes.dex",
+          "hit": "Build.BOARD check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\com.termux_1002.apk!classes.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 0,
+      "compressed_entry_count": 560,
+      "dex_count": 1,
+      "entry_count": 738,
+      "file_name": "com.termux_1002.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": true,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": false,
+        "native_heavy": true
+      },
+      "hardness_score": 6,
+      "high_entropy_entry_count": 4,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 29476832,
+      "local_path": "data/real_world/track_b/benign/com.termux_1002.apk",
+      "max_sampled_entry_entropy": 7.9974,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 8,
+      "packer_like_hits": [],
+      "resource_count": 638,
+      "schema_version": 1,
+      "sha256": "e6265a57eb5ca363808488e3b01955958bed93bc0c8a0d281849b363b11027ec",
+      "size_bytes": 113880067,
+      "source": "track_b_fdroid_benign",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 41
+    },
+    {
+      "all_hits": [
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\track_b\\benign\\de.danoeh.antennapod_3110295.apk",
+          "hit": "Resources Confusion"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\de.danoeh.antennapod_3110295.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\de.danoeh.antennapod_3110295.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\de.danoeh.antennapod_3110295.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\de.danoeh.antennapod_3110295.apk!classes2.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\de.danoeh.antennapod_3110295.apk!classes3.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\de.danoeh.antennapod_3110295.apk!classes3.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 18,
+      "compressed_entry_count": 1105,
+      "dex_count": 3,
+      "entry_count": 1312,
+      "file_name": "de.danoeh.antennapod_3110295.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": true
+      },
+      "hardness_score": 6,
+      "high_entropy_entry_count": 0,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 7152548,
+      "local_path": "data/real_world/track_b/benign/de.danoeh.antennapod_3110295.apk",
+      "max_sampled_entry_entropy": 7.9929,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 4,
+      "packer_like_hits": [],
+      "resource_count": 1196,
+      "schema_version": 1,
+      "sha256": "51908317d311b15e47d3d66df6efdaae4482fa7ef90534e001a3ad88e1703e48",
+      "size_bytes": 12282748,
+      "source": "track_b_fdroid_benign",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 13
+    },
+    {
+      "all_hits": [
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\track_b\\benign\\de.dennisguse.opentracks_6627.apk",
+          "hit": "Resources Confusion"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\de.dennisguse.opentracks_6627.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\de.dennisguse.opentracks_6627.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\de.dennisguse.opentracks_6627.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\de.dennisguse.opentracks_6627.apk!classes2.dex",
+          "hit": "unknown (please file detection issue!)"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\de.dennisguse.opentracks_6627.apk!classes3.dex",
+          "hit": "unknown (please file detection issue!)"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\de.dennisguse.opentracks_6627.apk!classes4.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\de.dennisguse.opentracks_6627.apk!classes4.dex",
+          "hit": "r8 without marker (suspicious)"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 3,
+      "compressed_entry_count": 930,
+      "dex_count": 4,
+      "entry_count": 1533,
+      "file_name": "de.dennisguse.opentracks_6627.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": false
+      },
+      "hardness_score": 5,
+      "high_entropy_entry_count": 1,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 8210912,
+      "local_path": "data/real_world/track_b/benign/de.dennisguse.opentracks_6627.apk",
+      "max_sampled_entry_entropy": 7.886,
+      "native_abis": [],
+      "native_lib_count": 0,
+      "packer_like_hits": [],
+      "resource_count": 1437,
+      "schema_version": 1,
+      "sha256": "85d097c9ee80ef85ae6d2c29809c00c5439ae4ee0f7ba02050250c3c77bbc19d",
+      "size_bytes": 9069243,
+      "source": "track_b_fdroid_benign",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 10
+    },
+    {
+      "all_hits": [
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\track_b\\benign\\org.fdroid.fdroid_1023052.apk",
+          "hit": "Resources Confusion"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\org.fdroid.fdroid_1023052.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\org.fdroid.fdroid_1023052.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\org.fdroid.fdroid_1023052.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "anti_debug",
+          "filename": "data\\real_world\\track_b\\benign\\org.fdroid.fdroid_1023052.apk!classes2.dex",
+          "hit": "Debug.isDebuggerConnected() check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\org.fdroid.fdroid_1023052.apk!classes2.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\org.fdroid.fdroid_1023052.apk!classes2.dex",
+          "hit": "possible Build.SERIAL check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\org.fdroid.fdroid_1023052.apk!classes2.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 8,
+      "compressed_entry_count": 894,
+      "dex_count": 2,
+      "entry_count": 1119,
+      "file_name": "org.fdroid.fdroid_1023052.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": true
+      },
+      "hardness_score": 6,
+      "high_entropy_entry_count": 1,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 9078492,
+      "local_path": "data/real_world/track_b/benign/org.fdroid.fdroid_1023052.apk",
+      "max_sampled_entry_entropy": 7.9929,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 4,
+      "packer_like_hits": [],
+      "resource_count": 1068,
+      "schema_version": 1,
+      "sha256": "985f5181d48bb6bafd54083a048b391271e0ab28385881cc41294fb01a222762",
+      "size_bytes": 12426276,
+      "source": "track_b_fdroid_benign",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 15
+    },
+    {
+      "all_hits": [
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\track_b\\benign\\org.schabi.newpipe_1010_cb84069.apk",
+          "hit": "Resources Confusion"
+        },
+        {
+          "category": "anti_debug",
+          "filename": "data\\real_world\\track_b\\benign\\org.schabi.newpipe_1010_cb84069.apk!classes.dex",
+          "hit": "Debug.isDebuggerConnected() check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\org.schabi.newpipe_1010_cb84069.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\org.schabi.newpipe_1010_cb84069.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\org.schabi.newpipe_1010_cb84069.apk!classes.dex",
+          "hit": "possible Build.SERIAL check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\org.schabi.newpipe_1010_cb84069.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\org.schabi.newpipe_1010_cb84069.apk!classes2.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 9,
+      "compressed_entry_count": 944,
+      "dex_count": 2,
+      "entry_count": 1351,
+      "file_name": "org.schabi.newpipe_1010_cb84069.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": true
+      },
+      "hardness_score": 6,
+      "high_entropy_entry_count": 0,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 8765348,
+      "local_path": "data/real_world/track_b/benign/org.schabi.newpipe_1010_cb84069.apk",
+      "max_sampled_entry_entropy": 7.9606,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 4,
+      "packer_like_hits": [],
+      "resource_count": 1197,
+      "schema_version": 1,
+      "sha256": "12e28bdeeec5a9512ec550ba233dc890276f4e73e757ca0e787acede42dc6c1c",
+      "size_bytes": 10881466,
+      "source": "track_b_fdroid_benign",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 28
+    },
+    {
+      "all_hits": [
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\track_b\\benign\\org.tasks_150302.apk",
+          "hit": "Resources Confusion"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\org.tasks_150302.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\org.tasks_150302.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\org.tasks_150302.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\org.tasks_150302.apk!classes2.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\org.tasks_150302.apk!classes2.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 85,
+      "compressed_entry_count": 2525,
+      "dex_count": 2,
+      "entry_count": 2825,
+      "file_name": "org.tasks_150302.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": true,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": true
+      },
+      "hardness_score": 7,
+      "high_entropy_entry_count": 2,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 15363680,
+      "local_path": "data/real_world/track_b/benign/org.tasks_150302.apk",
+      "max_sampled_entry_entropy": 7.9977,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 16,
+      "packer_like_hits": [],
+      "resource_count": 1143,
+      "schema_version": 1,
+      "sha256": "202a98de0c639d5765636e5683c37f7afa6f790199344800597ad1322d1f10c2",
+      "size_bytes": 27632652,
+      "source": "track_b_fdroid_benign",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 1417
+    },
+    {
+      "all_hits": [
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\track_b\\benign\\org.videolan.vlc_13070006.apk",
+          "hit": "Resources Confusion"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\org.videolan.vlc_13070006.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\org.videolan.vlc_13070006.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\org.videolan.vlc_13070006.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\org.videolan.vlc_13070006.apk!classes2.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\org.videolan.vlc_13070006.apk!classes3.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\org.videolan.vlc_13070006.apk!classes3.dex",
+          "hit": "r8 without marker (suspicious)"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\org.videolan.vlc_13070006.apk!classes4.dex",
+          "hit": "r8 without marker (suspicious)"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\org.videolan.vlc_13070006.apk!classes5.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\org.videolan.vlc_13070006.apk!classes5.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\org.videolan.vlc_13070006.apk!classes5.dex",
+          "hit": "Build.BOARD check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\org.videolan.vlc_13070006.apk!classes5.dex",
+          "hit": "r8 without marker (suspicious)"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b\\benign\\org.videolan.vlc_13070006.apk!classes6.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b\\benign\\org.videolan.vlc_13070006.apk!classes6.dex",
+          "hit": "r8 without marker (suspicious)"
+        },
+        {
+          "category": "anti_hook",
+          "filename": "data\\real_world\\track_b\\benign\\org.videolan.vlc_13070006.apk!lib/arm64-v8a/libvlc.so",
+          "hit": "syscalls"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 116,
+      "compressed_entry_count": 2068,
+      "dex_count": 6,
+      "entry_count": 2616,
+      "file_name": "org.videolan.vlc_13070006.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": true,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": true
+      },
+      "hardness_score": 7,
+      "high_entropy_entry_count": 9,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 43088280,
+      "local_path": "data/real_world/track_b/benign/org.videolan.vlc_13070006.apk",
+      "max_sampled_entry_entropy": 7.9966,
+      "native_abis": [
+        "arm64-v8a"
+      ],
+      "native_lib_count": 4,
+      "packer_like_hits": [],
+      "resource_count": 2424,
+      "schema_version": 1,
+      "sha256": "0c1671a5cb9048dccffcaa0740e9a78d76d83dc924ff7a7d92d37e82ecc24499",
+      "size_bytes": 49960882,
+      "source": "track_b_fdroid_benign",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 35
+    },
+    {
+      "all_hits": [
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0008C3A85769C8082AF4E009A7B37A411F956D4503E38EF7E2B23B10B2CA75A1.apk!classes.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0008C3A85769C8082AF4E009A7B37A411F956D4503E38EF7E2B23B10B2CA75A1.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0008C3A85769C8082AF4E009A7B37A411F956D4503E38EF7E2B23B10B2CA75A1.apk!classes.dex",
+          "hit": "Build.HARDWARE check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0008C3A85769C8082AF4E009A7B37A411F956D4503E38EF7E2B23B10B2CA75A1.apk!classes.dex",
+          "hit": "network operator name check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0008C3A85769C8082AF4E009A7B37A411F956D4503E38EF7E2B23B10B2CA75A1.apk!classes.dex",
+          "hit": "possible VM check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0008C3A85769C8082AF4E009A7B37A411F956D4503E38EF7E2B23B10B2CA75A1.apk!classes.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 11,
+      "compressed_entry_count": 384,
+      "dex_count": 1,
+      "entry_count": 1177,
+      "file_name": "0008C3A85769C8082AF4E009A7B37A411F956D4503E38EF7E2B23B10B2CA75A1.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": true,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": false,
+        "native_heavy": true
+      },
+      "hardness_score": 6,
+      "high_entropy_entry_count": 3,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 5377712,
+      "local_path": "data/real_world/track_b_v2/benign/0008C3A85769C8082AF4E009A7B37A411F956D4503E38EF7E2B23B10B2CA75A1.apk",
+      "max_sampled_entry_entropy": 7.9833,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "native_lib_count": 12,
+      "packer_like_hits": [],
+      "resource_count": 1009,
+      "schema_version": 1,
+      "sha256": "0008c3a85769c8082af4e009a7b37a411f956d4503e38ef7e2b23b10b2ca75a1",
+      "size_bytes": 26494752,
+      "source": "track_b_v2_strict_benign",
+      "strict_dpt_test_set": true,
+      "train_allowed": false,
+      "unknown_count": 131
+    },
+    {
+      "all_hits": [
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\000EF58AAA4B314ABCC6C1162C412893BAF65A568A03C659C9B0DD095A933020.apk!classes.dex",
+          "hit": "Build.HARDWARE check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\000EF58AAA4B314ABCC6C1162C412893BAF65A568A03C659C9B0DD095A933020.apk!classes.dex",
+          "hit": "possible VM check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\000EF58AAA4B314ABCC6C1162C412893BAF65A568A03C659C9B0DD095A933020.apk!classes.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 0,
+      "compressed_entry_count": 262,
+      "dex_count": 1,
+      "entry_count": 708,
+      "file_name": "000EF58AAA4B314ABCC6C1162C412893BAF65A568A03C659C9B0DD095A933020.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": true,
+        "large_entry": false,
+        "many_entries": true,
+        "multi_dex": false,
+        "native_heavy": true
+      },
+      "hardness_score": 5,
+      "high_entropy_entry_count": 0,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 4673408,
+      "local_path": "data/real_world/track_b_v2/benign/000EF58AAA4B314ABCC6C1162C412893BAF65A568A03C659C9B0DD095A933020.apk",
+      "max_sampled_entry_entropy": 7.9727,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 28,
+      "packer_like_hits": [],
+      "resource_count": 582,
+      "schema_version": 1,
+      "sha256": "000ef58aaa4b314abcc6c1162c412893baf65a568a03c659c9b0dd095a933020",
+      "size_bytes": 21946144,
+      "source": "track_b_v2_strict_benign",
+      "strict_dpt_test_set": true,
+      "train_allowed": false,
+      "unknown_count": 72
+    },
+    {
+      "all_hits": [
+        {
+          "category": "anti_debug",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0048B314D0FE79127A83307CE5BC5A6E6B2EA89E3E19B5A693FF77EF742E6C04.apk!classes.dex",
+          "hit": "Debug.isDebuggerConnected() check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0048B314D0FE79127A83307CE5BC5A6E6B2EA89E3E19B5A693FF77EF742E6C04.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0048B314D0FE79127A83307CE5BC5A6E6B2EA89E3E19B5A693FF77EF742E6C04.apk!classes.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0048B314D0FE79127A83307CE5BC5A6E6B2EA89E3E19B5A693FF77EF742E6C04.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0048B314D0FE79127A83307CE5BC5A6E6B2EA89E3E19B5A693FF77EF742E6C04.apk!classes.dex",
+          "hit": "Build.PRODUCT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0048B314D0FE79127A83307CE5BC5A6E6B2EA89E3E19B5A693FF77EF742E6C04.apk!classes.dex",
+          "hit": "possible Build.SERIAL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0048B314D0FE79127A83307CE5BC5A6E6B2EA89E3E19B5A693FF77EF742E6C04.apk!classes.dex",
+          "hit": "Build.TAGS check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0048B314D0FE79127A83307CE5BC5A6E6B2EA89E3E19B5A693FF77EF742E6C04.apk!classes.dex",
+          "hit": "network operator name check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0048B314D0FE79127A83307CE5BC5A6E6B2EA89E3E19B5A693FF77EF742E6C04.apk!classes.dex",
+          "hit": "possible VM check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0048B314D0FE79127A83307CE5BC5A6E6B2EA89E3E19B5A693FF77EF742E6C04.apk!classes.dex",
+          "hit": "unknown (please file detection issue!)"
+        },
+        {
+          "category": "anti_hook",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0048B314D0FE79127A83307CE5BC5A6E6B2EA89E3E19B5A693FF77EF742E6C04.apk!lib/arm64-v8a/libsigmux.so",
+          "hit": "syscalls"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 33,
+      "compressed_entry_count": 1169,
+      "dex_count": 1,
+      "entry_count": 2989,
+      "file_name": "0048B314D0FE79127A83307CE5BC5A6E6B2EA89E3E19B5A693FF77EF742E6C04.apk",
+      "hardness_flags": {
+        "asset_heavy": false,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": false,
+        "native_heavy": true
+      },
+      "hardness_score": 4,
+      "high_entropy_entry_count": 1,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 10498789,
+      "local_path": "data/real_world/track_b_v2/benign/0048B314D0FE79127A83307CE5BC5A6E6B2EA89E3E19B5A693FF77EF742E6C04.apk",
+      "max_sampled_entry_entropy": 7.9998,
+      "native_abis": [
+        "arm64-v8a"
+      ],
+      "native_lib_count": 10,
+      "packer_like_hits": [],
+      "resource_count": 1,
+      "schema_version": 1,
+      "sha256": "0048b314d0fe79127a83307ce5bc5a6e6b2ea89e3e19b5a693ff77ef742e6c04",
+      "size_bytes": 17445925,
+      "source": "track_b_v2_strict_benign",
+      "strict_dpt_test_set": true,
+      "train_allowed": false,
+      "unknown_count": 2941
+    },
+    {
+      "all_hits": [
+        {
+          "category": "packer",
+          "filename": "data\\real_world\\track_b_v2\\benign\\005AF753A03FA7D753FD2C8988E91B47966187A504F24E4187BDD19AF5797B00.apk",
+          "hit": "SecNeo.B"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\005AF753A03FA7D753FD2C8988E91B47966187A504F24E4187BDD19AF5797B00.apk!classes.dex",
+          "hit": "dexlib 2.x"
+        },
+        {
+          "category": "anti_hook",
+          "filename": "data\\real_world\\track_b_v2\\benign\\005AF753A03FA7D753FD2C8988E91B47966187A504F24E4187BDD19AF5797B00.apk!lib/arm64-v8a/libdexjni.so",
+          "hit": "syscalls"
+        },
+        {
+          "category": "anti_hook",
+          "filename": "data\\real_world\\track_b_v2\\benign\\005AF753A03FA7D753FD2C8988E91B47966187A504F24E4187BDD19AF5797B00.apk!lib/arm64-v8a/libDexHelper.so",
+          "hit": "syscalls"
+        }
+      ],
+      "apkid_clean": false,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 1,
+      "asset_count": 10,
+      "compressed_entry_count": 672,
+      "dex_count": 1,
+      "entry_count": 1222,
+      "file_name": "005AF753A03FA7D753FD2C8988E91B47966187A504F24E4187BDD19AF5797B00.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": true,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": false,
+        "native_heavy": true
+      },
+      "hardness_score": 6,
+      "high_entropy_entry_count": 17,
+      "label_class": "benign-borderline",
+      "largest_entry_size": 7561916,
+      "local_path": "data/real_world/track_b_v2/benign/005AF753A03FA7D753FD2C8988E91B47966187A504F24E4187BDD19AF5797B00.apk",
+      "max_sampled_entry_entropy": 7.9971,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi",
+        "armeabi-v7a",
+        "x86"
+      ],
+      "native_lib_count": 30,
+      "packer_like_hits": [
+        {
+          "category": "packer",
+          "filename": "data\\real_world\\track_b_v2\\benign\\005AF753A03FA7D753FD2C8988E91B47966187A504F24E4187BDD19AF5797B00.apk",
+          "hit": "SecNeo.B"
+        }
+      ],
+      "resource_count": 1008,
+      "schema_version": 1,
+      "sha256": "005af753a03fa7d753fd2c8988e91b47966187a504f24e4187bdd19af5797b00",
+      "size_bytes": 27910634,
+      "source": "track_b_v2_strict_benign",
+      "strict_dpt_test_set": true,
+      "train_allowed": false,
+      "unknown_count": 136
+    },
+    {
+      "all_hits": [
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\008A3ECDB5848E00D04D1CACC74368E3AD4B2A953B43517D4618843C4004E9B7.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\008A3ECDB5848E00D04D1CACC74368E3AD4B2A953B43517D4618843C4004E9B7.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\008A3ECDB5848E00D04D1CACC74368E3AD4B2A953B43517D4618843C4004E9B7.apk!classes.dex",
+          "hit": "dexlib 2.x"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 3,
+      "compressed_entry_count": 487,
+      "dex_count": 1,
+      "entry_count": 813,
+      "file_name": "008A3ECDB5848E00D04D1CACC74368E3AD4B2A953B43517D4618843C4004E9B7.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": false,
+        "native_heavy": false
+      },
+      "hardness_score": 4,
+      "high_entropy_entry_count": 1,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 6556933,
+      "local_path": "data/real_world/track_b_v2/benign/008A3ECDB5848E00D04D1CACC74368E3AD4B2A953B43517D4618843C4004E9B7.apk",
+      "max_sampled_entry_entropy": 7.9995,
+      "native_abis": [],
+      "native_lib_count": 0,
+      "packer_like_hits": [],
+      "resource_count": 800,
+      "schema_version": 1,
+      "sha256": "008a3ecdb5848e00d04d1cacc74368e3ad4b2a953b43517d4618843c4004e9b7",
+      "size_bytes": 8889357,
+      "source": "track_b_v2_strict_benign",
+      "strict_dpt_test_set": true,
+      "train_allowed": false,
+      "unknown_count": 6
+    },
+    {
+      "all_hits": [
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\00C43DF55A9AA7BEBB2911AF08ADE27F3FD7C5A65CA39517CDA39FC8118B7F7E.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\00C43DF55A9AA7BEBB2911AF08ADE27F3FD7C5A65CA39517CDA39FC8118B7F7E.apk!classes.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\00C43DF55A9AA7BEBB2911AF08ADE27F3FD7C5A65CA39517CDA39FC8118B7F7E.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\00C43DF55A9AA7BEBB2911AF08ADE27F3FD7C5A65CA39517CDA39FC8118B7F7E.apk!classes.dex",
+          "hit": "Build.HARDWARE check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\00C43DF55A9AA7BEBB2911AF08ADE27F3FD7C5A65CA39517CDA39FC8118B7F7E.apk!classes.dex",
+          "hit": "network operator name check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\00C43DF55A9AA7BEBB2911AF08ADE27F3FD7C5A65CA39517CDA39FC8118B7F7E.apk!classes.dex",
+          "hit": "possible VM check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\00C43DF55A9AA7BEBB2911AF08ADE27F3FD7C5A65CA39517CDA39FC8118B7F7E.apk!classes.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 1,
+      "compressed_entry_count": 602,
+      "dex_count": 1,
+      "entry_count": 1580,
+      "file_name": "00C43DF55A9AA7BEBB2911AF08ADE27F3FD7C5A65CA39517CDA39FC8118B7F7E.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": true,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": false,
+        "native_heavy": true
+      },
+      "hardness_score": 6,
+      "high_entropy_entry_count": 3,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 6825484,
+      "local_path": "data/real_world/track_b_v2/benign/00C43DF55A9AA7BEBB2911AF08ADE27F3FD7C5A65CA39517CDA39FC8118B7F7E.apk",
+      "max_sampled_entry_entropy": 7.8913,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "native_lib_count": 16,
+      "packer_like_hits": [],
+      "resource_count": 1322,
+      "schema_version": 1,
+      "sha256": "00c43df55a9aa7bebb2911af08ade27f3fd7c5a65ca39517cda39fc8118b7f7e",
+      "size_bytes": 29811055,
+      "source": "track_b_v2_strict_benign",
+      "strict_dpt_test_set": true,
+      "train_allowed": false,
+      "unknown_count": 190
+    },
+    {
+      "all_hits": [
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\013B9A8821D670D21C591EA60AB9F3573F584BAD26E47F68CA8970C585C9C92B.apk!classes2.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\013B9A8821D670D21C591EA60AB9F3573F584BAD26E47F68CA8970C585C9C92B.apk!classes2.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\013B9A8821D670D21C591EA60AB9F3573F584BAD26E47F68CA8970C585C9C92B.apk!classes2.dex",
+          "hit": "Build.HARDWARE check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\013B9A8821D670D21C591EA60AB9F3573F584BAD26E47F68CA8970C585C9C92B.apk!classes2.dex",
+          "hit": "Build.BOARD check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\013B9A8821D670D21C591EA60AB9F3573F584BAD26E47F68CA8970C585C9C92B.apk!classes2.dex",
+          "hit": "possible Build.SERIAL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\013B9A8821D670D21C591EA60AB9F3573F584BAD26E47F68CA8970C585C9C92B.apk!classes2.dex",
+          "hit": "Build.TAGS check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\013B9A8821D670D21C591EA60AB9F3573F584BAD26E47F68CA8970C585C9C92B.apk!classes2.dex",
+          "hit": "SIM operator check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\013B9A8821D670D21C591EA60AB9F3573F584BAD26E47F68CA8970C585C9C92B.apk!classes2.dex",
+          "hit": "network operator name check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\013B9A8821D670D21C591EA60AB9F3573F584BAD26E47F68CA8970C585C9C92B.apk!classes2.dex",
+          "hit": "emulator file check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\013B9A8821D670D21C591EA60AB9F3573F584BAD26E47F68CA8970C585C9C92B.apk!classes2.dex",
+          "hit": "r8 without marker (suspicious)"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\013B9A8821D670D21C591EA60AB9F3573F584BAD26E47F68CA8970C585C9C92B.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\013B9A8821D670D21C591EA60AB9F3573F584BAD26E47F68CA8970C585C9C92B.apk!classes.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\013B9A8821D670D21C591EA60AB9F3573F584BAD26E47F68CA8970C585C9C92B.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\013B9A8821D670D21C591EA60AB9F3573F584BAD26E47F68CA8970C585C9C92B.apk!classes.dex",
+          "hit": "Build.PRODUCT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\013B9A8821D670D21C591EA60AB9F3573F584BAD26E47F68CA8970C585C9C92B.apk!classes.dex",
+          "hit": "SIM operator check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\013B9A8821D670D21C591EA60AB9F3573F584BAD26E47F68CA8970C585C9C92B.apk!classes.dex",
+          "hit": "network operator name check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\013B9A8821D670D21C591EA60AB9F3573F584BAD26E47F68CA8970C585C9C92B.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "anti_debug",
+          "filename": "data\\real_world\\track_b_v2\\benign\\013B9A8821D670D21C591EA60AB9F3573F584BAD26E47F68CA8970C585C9C92B.apk!assets/audience_network.dex",
+          "hit": "Debug.isDebuggerConnected() check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\013B9A8821D670D21C591EA60AB9F3573F584BAD26E47F68CA8970C585C9C92B.apk!assets/audience_network.dex",
+          "hit": "possible Build.SERIAL check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\013B9A8821D670D21C591EA60AB9F3573F584BAD26E47F68CA8970C585C9C92B.apk!assets/audience_network.dex",
+          "hit": "unknown (please file detection issue!)"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 1,
+      "compressed_entry_count": 1726,
+      "dex_count": 3,
+      "entry_count": 1727,
+      "file_name": "013B9A8821D670D21C591EA60AB9F3573F584BAD26E47F68CA8970C585C9C92B.apk",
+      "hardness_flags": {
+        "asset_heavy": false,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": true
+      },
+      "hardness_score": 5,
+      "high_entropy_entry_count": 12,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 7709952,
+      "local_path": "data/real_world/track_b_v2/benign/013B9A8821D670D21C591EA60AB9F3573F584BAD26E47F68CA8970C585C9C92B.apk",
+      "max_sampled_entry_entropy": 7.992,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 14,
+      "packer_like_hits": [],
+      "resource_count": 1,
+      "schema_version": 1,
+      "sha256": "013b9a8821d670d21c591ea60ab9f3573f584bad26e47f68ca8970c585c9c92b",
+      "size_bytes": 12836287,
+      "source": "track_b_v2_strict_benign",
+      "strict_dpt_test_set": true,
+      "train_allowed": false,
+      "unknown_count": 1653
+    },
+    {
+      "all_hits": [
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\02330CB6E42DFF807AEA28427C779C90E600E2F1B3CBBA8A75E527CC83F97D57.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\02330CB6E42DFF807AEA28427C779C90E600E2F1B3CBBA8A75E527CC83F97D57.apk!classes.dex",
+          "hit": "Build.HARDWARE check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\02330CB6E42DFF807AEA28427C779C90E600E2F1B3CBBA8A75E527CC83F97D57.apk!classes.dex",
+          "hit": "network operator name check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\02330CB6E42DFF807AEA28427C779C90E600E2F1B3CBBA8A75E527CC83F97D57.apk!classes.dex",
+          "hit": "possible VM check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\02330CB6E42DFF807AEA28427C779C90E600E2F1B3CBBA8A75E527CC83F97D57.apk!classes.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 0,
+      "compressed_entry_count": 380,
+      "dex_count": 1,
+      "entry_count": 926,
+      "file_name": "02330CB6E42DFF807AEA28427C779C90E600E2F1B3CBBA8A75E527CC83F97D57.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": false,
+        "native_heavy": true
+      },
+      "hardness_score": 5,
+      "high_entropy_entry_count": 2,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 5248888,
+      "local_path": "data/real_world/track_b_v2/benign/02330CB6E42DFF807AEA28427C779C90E600E2F1B3CBBA8A75E527CC83F97D57.apk",
+      "max_sampled_entry_entropy": 7.9947,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "native_lib_count": 12,
+      "packer_like_hits": [],
+      "resource_count": 843,
+      "schema_version": 1,
+      "sha256": "02330cb6e42dff807aea28427c779c90e600e2f1b3cbba8a75e527cc83f97d57",
+      "size_bytes": 16810958,
+      "source": "track_b_v2_strict_benign",
+      "strict_dpt_test_set": true,
+      "train_allowed": false,
+      "unknown_count": 64
+    },
+    {
+      "all_hits": [
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0241F9B257D1490468D0C1623D921A40392B696196DF6C3ADDB6A7C4B910FFC5.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0241F9B257D1490468D0C1623D921A40392B696196DF6C3ADDB6A7C4B910FFC5.apk!classes.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0241F9B257D1490468D0C1623D921A40392B696196DF6C3ADDB6A7C4B910FFC5.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0241F9B257D1490468D0C1623D921A40392B696196DF6C3ADDB6A7C4B910FFC5.apk!classes.dex",
+          "hit": "Build.PRODUCT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0241F9B257D1490468D0C1623D921A40392B696196DF6C3ADDB6A7C4B910FFC5.apk!classes.dex",
+          "hit": "Build.HARDWARE check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0241F9B257D1490468D0C1623D921A40392B696196DF6C3ADDB6A7C4B910FFC5.apk!classes.dex",
+          "hit": "network operator name check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0241F9B257D1490468D0C1623D921A40392B696196DF6C3ADDB6A7C4B910FFC5.apk!classes.dex",
+          "hit": "possible VM check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0241F9B257D1490468D0C1623D921A40392B696196DF6C3ADDB6A7C4B910FFC5.apk!classes.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 3,
+      "compressed_entry_count": 221,
+      "dex_count": 1,
+      "entry_count": 412,
+      "file_name": "0241F9B257D1490468D0C1623D921A40392B696196DF6C3ADDB6A7C4B910FFC5.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": false,
+        "many_entries": true,
+        "multi_dex": false,
+        "native_heavy": true
+      },
+      "hardness_score": 4,
+      "high_entropy_entry_count": 0,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 4673408,
+      "local_path": "data/real_world/track_b_v2/benign/0241F9B257D1490468D0C1623D921A40392B696196DF6C3ADDB6A7C4B910FFC5.apk",
+      "max_sampled_entry_entropy": 7.9676,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 28,
+      "packer_like_hits": [],
+      "resource_count": 266,
+      "schema_version": 1,
+      "sha256": "0241f9b257d1490468d0c1623d921a40392b696196df6c3addb6a7c4b910ffc5",
+      "size_bytes": 20095001,
+      "source": "track_b_v2_strict_benign",
+      "strict_dpt_test_set": true,
+      "train_allowed": false,
+      "unknown_count": 79
+    },
+    {
+      "all_hits": [
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\02754B30932C64554C28E290B6712B78DF70645D05DF7B6F537FBC5005F5A159.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\02754B30932C64554C28E290B6712B78DF70645D05DF7B6F537FBC5005F5A159.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\02754B30932C64554C28E290B6712B78DF70645D05DF7B6F537FBC5005F5A159.apk!classes.dex",
+          "hit": "Build.HARDWARE check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\02754B30932C64554C28E290B6712B78DF70645D05DF7B6F537FBC5005F5A159.apk!classes.dex",
+          "hit": "possible VM check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\02754B30932C64554C28E290B6712B78DF70645D05DF7B6F537FBC5005F5A159.apk!classes.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 1,
+      "compressed_entry_count": 520,
+      "dex_count": 1,
+      "entry_count": 785,
+      "file_name": "02754B30932C64554C28E290B6712B78DF70645D05DF7B6F537FBC5005F5A159.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": false,
+        "native_heavy": true
+      },
+      "hardness_score": 5,
+      "high_entropy_entry_count": 0,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 7543091,
+      "local_path": "data/real_world/track_b_v2/benign/02754B30932C64554C28E290B6712B78DF70645D05DF7B6F537FBC5005F5A159.apk",
+      "max_sampled_entry_entropy": 7.9791,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "native_lib_count": 14,
+      "packer_like_hits": [],
+      "resource_count": 755,
+      "schema_version": 1,
+      "sha256": "02754b30932c64554c28e290b6712b78df70645d05df7b6f537fbc5005f5a159",
+      "size_bytes": 17459302,
+      "source": "track_b_v2_strict_benign",
+      "strict_dpt_test_set": true,
+      "train_allowed": false,
+      "unknown_count": 8
+    },
+    {
+      "all_hits": [
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\02BFA7CFAB03E94FE9F362BD52203D743350FFA15D02ECE7E29BE774C22C8E97.apk!classes.dex",
+          "hit": "Build.HARDWARE check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\02BFA7CFAB03E94FE9F362BD52203D743350FFA15D02ECE7E29BE774C22C8E97.apk!classes.dex",
+          "hit": "possible VM check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\02BFA7CFAB03E94FE9F362BD52203D743350FFA15D02ECE7E29BE774C22C8E97.apk!classes.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 0,
+      "compressed_entry_count": 305,
+      "dex_count": 1,
+      "entry_count": 1129,
+      "file_name": "02BFA7CFAB03E94FE9F362BD52203D743350FFA15D02ECE7E29BE774C22C8E97.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": true,
+        "large_entry": false,
+        "many_entries": true,
+        "multi_dex": false,
+        "native_heavy": true
+      },
+      "hardness_score": 5,
+      "high_entropy_entry_count": 4,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 4970530,
+      "local_path": "data/real_world/track_b_v2/benign/02BFA7CFAB03E94FE9F362BD52203D743350FFA15D02ECE7E29BE774C22C8E97.apk",
+      "max_sampled_entry_entropy": 7.9811,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "native_lib_count": 14,
+      "packer_like_hits": [],
+      "resource_count": 1031,
+      "schema_version": 1,
+      "sha256": "02bfa7cfab03e94fe9f362bd52203d743350ffa15d02ece7e29be774c22c8e97",
+      "size_bytes": 21983892,
+      "source": "track_b_v2_strict_benign",
+      "strict_dpt_test_set": true,
+      "train_allowed": false,
+      "unknown_count": 79
+    },
+    {
+      "all_hits": [
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\02F61383C785D8C2AD05E96DDBF3B9B4B2C97D601F0533C439B6B5E0ED701A0E.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\02F61383C785D8C2AD05E96DDBF3B9B4B2C97D601F0533C439B6B5E0ED701A0E.apk!classes.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\02F61383C785D8C2AD05E96DDBF3B9B4B2C97D601F0533C439B6B5E0ED701A0E.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\02F61383C785D8C2AD05E96DDBF3B9B4B2C97D601F0533C439B6B5E0ED701A0E.apk!classes.dex",
+          "hit": "Build.HARDWARE check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\02F61383C785D8C2AD05E96DDBF3B9B4B2C97D601F0533C439B6B5E0ED701A0E.apk!classes.dex",
+          "hit": "network operator name check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\02F61383C785D8C2AD05E96DDBF3B9B4B2C97D601F0533C439B6B5E0ED701A0E.apk!classes.dex",
+          "hit": "possible VM check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\02F61383C785D8C2AD05E96DDBF3B9B4B2C97D601F0533C439B6B5E0ED701A0E.apk!classes.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 9,
+      "compressed_entry_count": 493,
+      "dex_count": 1,
+      "entry_count": 827,
+      "file_name": "02F61383C785D8C2AD05E96DDBF3B9B4B2C97D601F0533C439B6B5E0ED701A0E.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": true,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": false,
+        "native_heavy": true
+      },
+      "hardness_score": 6,
+      "high_entropy_entry_count": 0,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 7452230,
+      "local_path": "data/real_world/track_b_v2/benign/02F61383C785D8C2AD05E96DDBF3B9B4B2C97D601F0533C439B6B5E0ED701A0E.apk",
+      "max_sampled_entry_entropy": 7.9846,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 24,
+      "packer_like_hits": [],
+      "resource_count": 765,
+      "schema_version": 1,
+      "sha256": "02f61383c785d8c2ad05e96ddbf3b9b4b2c97d601f0533c439b6b5e0ed701a0e",
+      "size_bytes": 22928306,
+      "source": "track_b_v2_strict_benign",
+      "strict_dpt_test_set": true,
+      "train_allowed": false,
+      "unknown_count": 13
+    },
+    {
+      "all_hits": [
+        {
+          "category": "anti_debug",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!assets/audience_network.dex",
+          "hit": "Debug.isDebuggerConnected() check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!assets/audience_network.dex",
+          "hit": "possible Build.SERIAL check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!assets/audience_network.dex",
+          "hit": "unknown (please file detection issue!)"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes.dex",
+          "hit": "Build.PRODUCT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes.dex",
+          "hit": "SIM operator check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes.dex",
+          "hit": "network operator name check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes.dex",
+          "hit": "subscriber ID check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "obfuscator",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes.dex",
+          "hit": "unreadable field names"
+        },
+        {
+          "category": "obfuscator",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes.dex",
+          "hit": "unreadable method names"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes2.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes2.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes2.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes2.dex",
+          "hit": "Build.PRODUCT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes2.dex",
+          "hit": "possible Build.SERIAL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes2.dex",
+          "hit": "Build.TAGS check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes2.dex",
+          "hit": "SIM operator check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes2.dex",
+          "hit": "network operator name check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes2.dex",
+          "hit": "subscriber ID check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes2.dex",
+          "hit": "possible VM check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes2.dex",
+          "hit": "r8 without marker (suspicious)"
+        },
+        {
+          "category": "obfuscator",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes2.dex",
+          "hit": "unreadable field names"
+        },
+        {
+          "category": "obfuscator",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes2.dex",
+          "hit": "unreadable method names"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes3.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes3.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes3.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes3.dex",
+          "hit": "Build.PRODUCT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes3.dex",
+          "hit": "possible Build.SERIAL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes3.dex",
+          "hit": "SIM operator check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes3.dex",
+          "hit": "network operator name check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes3.dex",
+          "hit": "r8 without marker (suspicious)"
+        },
+        {
+          "category": "obfuscator",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes3.dex",
+          "hit": "unreadable field names"
+        },
+        {
+          "category": "obfuscator",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!classes3.dex",
+          "hit": "unreadable method names"
+        },
+        {
+          "category": "anti_hook",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk!lib/arm64-v8a/libnms.so",
+          "hit": "syscalls"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 18,
+      "compressed_entry_count": 1530,
+      "dex_count": 4,
+      "entry_count": 1544,
+      "file_name": "03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk",
+      "hardness_flags": {
+        "asset_heavy": false,
+        "high_entropy": true,
+        "large_apk": true,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": true
+      },
+      "hardness_score": 6,
+      "high_entropy_entry_count": 33,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 9519744,
+      "local_path": "data/real_world/track_b_v2/benign/03AA2D4E5140765A94591190173DD2C1E87B6957E202FF0E6D3CEED2BD23D6B9.apk",
+      "max_sampled_entry_entropy": 7.9988,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi",
+        "armeabi-v7a"
+      ],
+      "native_lib_count": 18,
+      "packer_like_hits": [],
+      "resource_count": 1,
+      "schema_version": 1,
+      "sha256": "03aa2d4e5140765a94591190173dd2c1e87b6957e202ff0e6d3ceed2bd23d6b9",
+      "size_bytes": 23969211,
+      "source": "track_b_v2_strict_benign",
+      "strict_dpt_test_set": true,
+      "train_allowed": false,
+      "unknown_count": 1438
+    },
+    {
+      "all_hits": [
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03CB0B652145BF30EEB6333521DE3E076A80DBF53C06C11D4D9B2BB672B78C14.apk!classes.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03CB0B652145BF30EEB6333521DE3E076A80DBF53C06C11D4D9B2BB672B78C14.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03CB0B652145BF30EEB6333521DE3E076A80DBF53C06C11D4D9B2BB672B78C14.apk!classes.dex",
+          "hit": "Build.HARDWARE check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03CB0B652145BF30EEB6333521DE3E076A80DBF53C06C11D4D9B2BB672B78C14.apk!classes.dex",
+          "hit": "network operator name check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03CB0B652145BF30EEB6333521DE3E076A80DBF53C06C11D4D9B2BB672B78C14.apk!classes.dex",
+          "hit": "possible VM check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03CB0B652145BF30EEB6333521DE3E076A80DBF53C06C11D4D9B2BB672B78C14.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "anti_hook",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03CB0B652145BF30EEB6333521DE3E076A80DBF53C06C11D4D9B2BB672B78C14.apk!lib/arm64-v8a/libxamarin-app.so",
+          "hit": "syscalls"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 69,
+      "compressed_entry_count": 521,
+      "dex_count": 1,
+      "entry_count": 1110,
+      "file_name": "03CB0B652145BF30EEB6333521DE3E076A80DBF53C06C11D4D9B2BB672B78C14.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": true,
+        "large_entry": false,
+        "many_entries": true,
+        "multi_dex": false,
+        "native_heavy": true
+      },
+      "hardness_score": 5,
+      "high_entropy_entry_count": 0,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 4719896,
+      "local_path": "data/real_world/track_b_v2/benign/03CB0B652145BF30EEB6333521DE3E076A80DBF53C06C11D4D9B2BB672B78C14.apk",
+      "max_sampled_entry_entropy": 7.9837,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 28,
+      "packer_like_hits": [],
+      "resource_count": 913,
+      "schema_version": 1,
+      "sha256": "03cb0b652145bf30eeb6333521de3e076a80dbf53c06c11d4d9b2bb672b78c14",
+      "size_bytes": 24343931,
+      "source": "track_b_v2_strict_benign",
+      "strict_dpt_test_set": true,
+      "train_allowed": false,
+      "unknown_count": 87
+    },
+    {
+      "all_hits": [
+        {
+          "category": "anti_debug",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03E044B07FC5BF83AFF140971B8053BDC06C00A9EAFD8FCCCF4A6257D2C6EE14.apk!classes.dex",
+          "hit": "Debug.isDebuggerConnected() check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03E044B07FC5BF83AFF140971B8053BDC06C00A9EAFD8FCCCF4A6257D2C6EE14.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03E044B07FC5BF83AFF140971B8053BDC06C00A9EAFD8FCCCF4A6257D2C6EE14.apk!classes.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03E044B07FC5BF83AFF140971B8053BDC06C00A9EAFD8FCCCF4A6257D2C6EE14.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03E044B07FC5BF83AFF140971B8053BDC06C00A9EAFD8FCCCF4A6257D2C6EE14.apk!classes.dex",
+          "hit": "Build.PRODUCT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03E044B07FC5BF83AFF140971B8053BDC06C00A9EAFD8FCCCF4A6257D2C6EE14.apk!classes.dex",
+          "hit": "Build.TAGS check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03E044B07FC5BF83AFF140971B8053BDC06C00A9EAFD8FCCCF4A6257D2C6EE14.apk!classes.dex",
+          "hit": "SIM operator check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03E044B07FC5BF83AFF140971B8053BDC06C00A9EAFD8FCCCF4A6257D2C6EE14.apk!classes.dex",
+          "hit": "network operator name check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03E044B07FC5BF83AFF140971B8053BDC06C00A9EAFD8FCCCF4A6257D2C6EE14.apk!classes.dex",
+          "hit": "subscriber ID check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03E044B07FC5BF83AFF140971B8053BDC06C00A9EAFD8FCCCF4A6257D2C6EE14.apk!classes.dex",
+          "hit": "possible VM check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03E044B07FC5BF83AFF140971B8053BDC06C00A9EAFD8FCCCF4A6257D2C6EE14.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\03E044B07FC5BF83AFF140971B8053BDC06C00A9EAFD8FCCCF4A6257D2C6EE14.apk!classes2.dex",
+          "hit": "r8 without marker (suspicious)"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 45,
+      "compressed_entry_count": 146,
+      "dex_count": 2,
+      "entry_count": 195,
+      "file_name": "03E044B07FC5BF83AFF140971B8053BDC06C00A9EAFD8FCCCF4A6257D2C6EE14.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": true,
+        "many_entries": false,
+        "multi_dex": true,
+        "native_heavy": false
+      },
+      "hardness_score": 4,
+      "high_entropy_entry_count": 2,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 9083156,
+      "local_path": "data/real_world/track_b_v2/benign/03E044B07FC5BF83AFF140971B8053BDC06C00A9EAFD8FCCCF4A6257D2C6EE14.apk",
+      "max_sampled_entry_entropy": 7.9937,
+      "native_abis": [],
+      "native_lib_count": 0,
+      "packer_like_hits": [],
+      "resource_count": 99,
+      "schema_version": 1,
+      "sha256": "03e044b07fc5bf83aff140971b8053bdc06c00a9eafd8fcccf4a6257d2c6ee14",
+      "size_bytes": 11899305,
+      "source": "track_b_v2_strict_benign",
+      "strict_dpt_test_set": true,
+      "train_allowed": false,
+      "unknown_count": 46
+    },
+    {
+      "all_hits": [
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\043B20689764B30F8FE241672DFF5FA79536BC61117B7967D90E9F8B77A02856.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\043B20689764B30F8FE241672DFF5FA79536BC61117B7967D90E9F8B77A02856.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\043B20689764B30F8FE241672DFF5FA79536BC61117B7967D90E9F8B77A02856.apk!classes.dex",
+          "hit": "SIM operator check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\043B20689764B30F8FE241672DFF5FA79536BC61117B7967D90E9F8B77A02856.apk!classes.dex",
+          "hit": "network operator name check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\043B20689764B30F8FE241672DFF5FA79536BC61117B7967D90E9F8B77A02856.apk!classes.dex",
+          "hit": "possible VM check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\043B20689764B30F8FE241672DFF5FA79536BC61117B7967D90E9F8B77A02856.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "anti_debug",
+          "filename": "data\\real_world\\track_b_v2\\benign\\043B20689764B30F8FE241672DFF5FA79536BC61117B7967D90E9F8B77A02856.apk!classes2.dex",
+          "hit": "Debug.isDebuggerConnected() check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\043B20689764B30F8FE241672DFF5FA79536BC61117B7967D90E9F8B77A02856.apk!classes2.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\043B20689764B30F8FE241672DFF5FA79536BC61117B7967D90E9F8B77A02856.apk!classes2.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\043B20689764B30F8FE241672DFF5FA79536BC61117B7967D90E9F8B77A02856.apk!classes2.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\043B20689764B30F8FE241672DFF5FA79536BC61117B7967D90E9F8B77A02856.apk!classes2.dex",
+          "hit": "Build.PRODUCT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\043B20689764B30F8FE241672DFF5FA79536BC61117B7967D90E9F8B77A02856.apk!classes2.dex",
+          "hit": "Build.TAGS check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\043B20689764B30F8FE241672DFF5FA79536BC61117B7967D90E9F8B77A02856.apk!classes2.dex",
+          "hit": "r8 without marker (suspicious)"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\043B20689764B30F8FE241672DFF5FA79536BC61117B7967D90E9F8B77A02856.apk!classes3.dex",
+          "hit": "r8 without marker (suspicious)"
+        },
+        {
+          "category": "anti_debug",
+          "filename": "data\\real_world\\track_b_v2\\benign\\043B20689764B30F8FE241672DFF5FA79536BC61117B7967D90E9F8B77A02856.apk!assets/audience_network.dex",
+          "hit": "Debug.isDebuggerConnected() check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\043B20689764B30F8FE241672DFF5FA79536BC61117B7967D90E9F8B77A02856.apk!assets/audience_network.dex",
+          "hit": "possible Build.SERIAL check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\043B20689764B30F8FE241672DFF5FA79536BC61117B7967D90E9F8B77A02856.apk!assets/audience_network.dex",
+          "hit": "unknown (please file detection issue!)"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 148,
+      "compressed_entry_count": 1487,
+      "dex_count": 4,
+      "entry_count": 2984,
+      "file_name": "043B20689764B30F8FE241672DFF5FA79536BC61117B7967D90E9F8B77A02856.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": true
+      },
+      "hardness_score": 6,
+      "high_entropy_entry_count": 0,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 8847692,
+      "local_path": "data/real_world/track_b_v2/benign/043B20689764B30F8FE241672DFF5FA79536BC61117B7967D90E9F8B77A02856.apk",
+      "max_sampled_entry_entropy": 7.9946,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 28,
+      "packer_like_hits": [],
+      "resource_count": 2791,
+      "schema_version": 1,
+      "sha256": "043b20689764b30f8fe241672dff5fa79536bc61117b7967d90e9f8b77a02856",
+      "size_bytes": 18155543,
+      "source": "track_b_v2_strict_benign",
+      "strict_dpt_test_set": true,
+      "train_allowed": false,
+      "unknown_count": 8
+    },
+    {
+      "all_hits": [
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0469915337ACE46105985DB92D293F4133074915A0BA7955D964F2D7A40BBE3D.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0469915337ACE46105985DB92D293F4133074915A0BA7955D964F2D7A40BBE3D.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0469915337ACE46105985DB92D293F4133074915A0BA7955D964F2D7A40BBE3D.apk!classes.dex",
+          "hit": "SIM operator check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0469915337ACE46105985DB92D293F4133074915A0BA7955D964F2D7A40BBE3D.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0469915337ACE46105985DB92D293F4133074915A0BA7955D964F2D7A40BBE3D.apk!classes2.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0469915337ACE46105985DB92D293F4133074915A0BA7955D964F2D7A40BBE3D.apk!classes2.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0469915337ACE46105985DB92D293F4133074915A0BA7955D964F2D7A40BBE3D.apk!classes2.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0469915337ACE46105985DB92D293F4133074915A0BA7955D964F2D7A40BBE3D.apk!classes2.dex",
+          "hit": "Build.PRODUCT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0469915337ACE46105985DB92D293F4133074915A0BA7955D964F2D7A40BBE3D.apk!classes2.dex",
+          "hit": "Build.TAGS check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0469915337ACE46105985DB92D293F4133074915A0BA7955D964F2D7A40BBE3D.apk!classes2.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "anti_debug",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0469915337ACE46105985DB92D293F4133074915A0BA7955D964F2D7A40BBE3D.apk!assets/audience_network.dex",
+          "hit": "Debug.isDebuggerConnected() check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0469915337ACE46105985DB92D293F4133074915A0BA7955D964F2D7A40BBE3D.apk!assets/audience_network.dex",
+          "hit": "unknown (please file detection issue!)"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 136,
+      "compressed_entry_count": 1511,
+      "dex_count": 3,
+      "entry_count": 2827,
+      "file_name": "0469915337ACE46105985DB92D293F4133074915A0BA7955D964F2D7A40BBE3D.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": true
+      },
+      "hardness_score": 6,
+      "high_entropy_entry_count": 0,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 8312308,
+      "local_path": "data/real_world/track_b_v2/benign/0469915337ACE46105985DB92D293F4133074915A0BA7955D964F2D7A40BBE3D.apk",
+      "max_sampled_entry_entropy": 7.9946,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 28,
+      "packer_like_hits": [],
+      "resource_count": 2647,
+      "schema_version": 1,
+      "sha256": "0469915337ace46105985db92d293f4133074915a0ba7955d964f2d7a40bbe3d",
+      "size_bytes": 17154540,
+      "source": "track_b_v2_strict_benign",
+      "strict_dpt_test_set": true,
+      "train_allowed": false,
+      "unknown_count": 8
+    },
+    {
+      "all_hits": [
+        {
+          "category": "anti_hook",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0498C69E59CD1C0BBC3C6C12A81FA16424805F55CF08EF4B254C9E8D522938CE.apk!lib/arm64-v8a/libcdb6.so",
+          "hit": "syscalls"
+        },
+        {
+          "category": "obfuscator",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0498C69E59CD1C0BBC3C6C12A81FA16424805F55CF08EF4B254C9E8D522938CE.apk!lib/arm64-v8a/libcdb6.so",
+          "hit": "DexGuard 9.x"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0498C69E59CD1C0BBC3C6C12A81FA16424805F55CF08EF4B254C9E8D522938CE.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0498C69E59CD1C0BBC3C6C12A81FA16424805F55CF08EF4B254C9E8D522938CE.apk!classes.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0498C69E59CD1C0BBC3C6C12A81FA16424805F55CF08EF4B254C9E8D522938CE.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0498C69E59CD1C0BBC3C6C12A81FA16424805F55CF08EF4B254C9E8D522938CE.apk!classes.dex",
+          "hit": "Build.PRODUCT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0498C69E59CD1C0BBC3C6C12A81FA16424805F55CF08EF4B254C9E8D522938CE.apk!classes.dex",
+          "hit": "Build.BOARD check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0498C69E59CD1C0BBC3C6C12A81FA16424805F55CF08EF4B254C9E8D522938CE.apk!classes.dex",
+          "hit": "SIM operator check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0498C69E59CD1C0BBC3C6C12A81FA16424805F55CF08EF4B254C9E8D522938CE.apk!classes.dex",
+          "hit": "network operator name check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0498C69E59CD1C0BBC3C6C12A81FA16424805F55CF08EF4B254C9E8D522938CE.apk!classes.dex",
+          "hit": "possible VM check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\0498C69E59CD1C0BBC3C6C12A81FA16424805F55CF08EF4B254C9E8D522938CE.apk!classes.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 1,
+      "asset_count": 109,
+      "compressed_entry_count": 739,
+      "dex_count": 1,
+      "entry_count": 1230,
+      "file_name": "0498C69E59CD1C0BBC3C6C12A81FA16424805F55CF08EF4B254C9E8D522938CE.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": false,
+        "native_heavy": true
+      },
+      "hardness_score": 5,
+      "high_entropy_entry_count": 21,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 6220936,
+      "local_path": "data/real_world/track_b_v2/benign/0498C69E59CD1C0BBC3C6C12A81FA16424805F55CF08EF4B254C9E8D522938CE.apk",
+      "max_sampled_entry_entropy": 7.9989,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 13,
+      "packer_like_hits": [],
+      "resource_count": 1,
+      "schema_version": 1,
+      "sha256": "0498c69e59cd1c0bbc3c6c12a81fa16424805f55cf08ef4b254c9e8d522938ce",
+      "size_bytes": 19669805,
+      "source": "track_b_v2_strict_benign",
+      "strict_dpt_test_set": true,
+      "train_allowed": false,
+      "unknown_count": 1056
+    },
+    {
+      "all_hits": [
+        {
+          "category": "anti_debug",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05377384835C97D130C8F79279EAF944E42511B1AA26BDCC71863EC856C6CE59.apk!classes.dex",
+          "hit": "Debug.isDebuggerConnected() check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05377384835C97D130C8F79279EAF944E42511B1AA26BDCC71863EC856C6CE59.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05377384835C97D130C8F79279EAF944E42511B1AA26BDCC71863EC856C6CE59.apk!classes.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05377384835C97D130C8F79279EAF944E42511B1AA26BDCC71863EC856C6CE59.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05377384835C97D130C8F79279EAF944E42511B1AA26BDCC71863EC856C6CE59.apk!classes.dex",
+          "hit": "Build.PRODUCT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05377384835C97D130C8F79279EAF944E42511B1AA26BDCC71863EC856C6CE59.apk!classes.dex",
+          "hit": "Build.BOARD check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05377384835C97D130C8F79279EAF944E42511B1AA26BDCC71863EC856C6CE59.apk!classes.dex",
+          "hit": "Build.TAGS check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05377384835C97D130C8F79279EAF944E42511B1AA26BDCC71863EC856C6CE59.apk!classes.dex",
+          "hit": "SIM operator check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05377384835C97D130C8F79279EAF944E42511B1AA26BDCC71863EC856C6CE59.apk!classes.dex",
+          "hit": "network operator name check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05377384835C97D130C8F79279EAF944E42511B1AA26BDCC71863EC856C6CE59.apk!classes.dex",
+          "hit": "dx (possible dexmerge)"
+        },
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05377384835C97D130C8F79279EAF944E42511B1AA26BDCC71863EC856C6CE59.apk!classes.dex",
+          "hit": "dexmerge"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 86,
+      "compressed_entry_count": 205,
+      "dex_count": 1,
+      "entry_count": 205,
+      "file_name": "05377384835C97D130C8F79279EAF944E42511B1AA26BDCC71863EC856C6CE59.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": false,
+        "native_heavy": false
+      },
+      "hardness_score": 4,
+      "high_entropy_entry_count": 7,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 9687276,
+      "local_path": "data/real_world/track_b_v2/benign/05377384835C97D130C8F79279EAF944E42511B1AA26BDCC71863EC856C6CE59.apk",
+      "max_sampled_entry_entropy": 7.9991,
+      "native_abis": [
+        "armeabi-v7a"
+      ],
+      "native_lib_count": 3,
+      "packer_like_hits": [],
+      "resource_count": 102,
+      "schema_version": 1,
+      "sha256": "05377384835c97d130c8f79279eaf944e42511b1aa26bdcc71863ec856c6ce59",
+      "size_bytes": 10870912,
+      "source": "track_b_v2_strict_benign",
+      "strict_dpt_test_set": true,
+      "train_allowed": false,
+      "unknown_count": 9
+    },
+    {
+      "all_hits": [
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes.dex",
+          "hit": "Build.PRODUCT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes.dex",
+          "hit": "Build.HARDWARE check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes.dex",
+          "hit": "Build.BOARD check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes.dex",
+          "hit": "possible Build.SERIAL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes.dex",
+          "hit": "possible VM check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes.dex",
+          "hit": "dx (possible dexmerge)"
+        },
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes.dex",
+          "hit": "dexmerge"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes2.dex",
+          "hit": "dx (possible dexmerge)"
+        },
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes2.dex",
+          "hit": "dexmerge"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes3.dex",
+          "hit": "dx (possible dexmerge)"
+        },
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes3.dex",
+          "hit": "dexmerge"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes4.dex",
+          "hit": "dx (possible dexmerge)"
+        },
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes4.dex",
+          "hit": "dexmerge"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes5.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes5.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes5.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes5.dex",
+          "hit": "Build.PRODUCT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes5.dex",
+          "hit": "Build.HARDWARE check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes5.dex",
+          "hit": "Build.BOARD check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes5.dex",
+          "hit": "possible Build.SERIAL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes5.dex",
+          "hit": "Build.TAGS check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes5.dex",
+          "hit": "SIM operator check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes5.dex",
+          "hit": "network operator name check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes5.dex",
+          "hit": "ro.product.device check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes5.dex",
+          "hit": "ro.kernel.qemu check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes5.dex",
+          "hit": "possible ro.secure check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes5.dex",
+          "hit": "emulator file check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes5.dex",
+          "hit": "dx (possible dexmerge)"
+        },
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes5.dex",
+          "hit": "dexmerge"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes6.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes6.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes6.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes6.dex",
+          "hit": "dx (possible dexmerge)"
+        },
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes6.dex",
+          "hit": "dexmerge"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes7.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes7.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes7.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes7.dex",
+          "hit": "dx (possible dexmerge)"
+        },
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\track_b_v2\\benign\\05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk!classes7.dex",
+          "hit": "dexmerge"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 8,
+      "compressed_entry_count": 285,
+      "dex_count": 7,
+      "entry_count": 558,
+      "file_name": "05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": false
+      },
+      "hardness_score": 5,
+      "high_entropy_entry_count": 1,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 9482068,
+      "local_path": "data/real_world/track_b_v2/benign/05483B1B8C05FC1FCC0FE70B67A22EA0CDCE9B27D7D019CB7C3AC4766E2BA8AA.apk",
+      "max_sampled_entry_entropy": 7.9576,
+      "native_abis": [],
+      "native_lib_count": 0,
+      "packer_like_hits": [],
+      "resource_count": 538,
+      "schema_version": 1,
+      "sha256": "05483b1b8c05fc1fcc0fe70b67a22ea0cdce9b27d7d019cb7c3ac4766e2ba8aa",
+      "size_bytes": 9731333,
+      "source": "track_b_v2_strict_benign",
+      "strict_dpt_test_set": true,
+      "train_allowed": false,
+      "unknown_count": 2
+    },
+    {
+      "all_hits": [
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\at.bitfire.davdroid_405120004.apk",
+          "hit": "Resources Confusion"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\at.bitfire.davdroid_405120004.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\at.bitfire.davdroid_405120004.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\at.bitfire.davdroid_405120004.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\at.bitfire.davdroid_405120004.apk!classes2.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 7,
+      "compressed_entry_count": 2667,
+      "dex_count": 2,
+      "entry_count": 2845,
+      "file_name": "at.bitfire.davdroid_405120004.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": true
+      },
+      "hardness_score": 6,
+      "high_entropy_entry_count": 0,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 9393192,
+      "local_path": "data/real_world/hard_benign/fdroid_expansion/at.bitfire.davdroid_405120004.apk",
+      "max_sampled_entry_entropy": 7.9487,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 8,
+      "packer_like_hits": [],
+      "resource_count": 1297,
+      "schema_version": 1,
+      "sha256": "a22312f5ba76d6e05d67da3b604fc0794e2df2b46de6b6f57ed17c340630030f",
+      "size_bytes": 15993488,
+      "source": "unknown",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 1380
+    },
+    {
+      "all_hits": [
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.amaze.filemanager_124.apk",
+          "hit": "Resources Confusion"
+        },
+        {
+          "category": "anti_debug",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.amaze.filemanager_124.apk!classes.dex",
+          "hit": "Debug.isDebuggerConnected() check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.amaze.filemanager_124.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.amaze.filemanager_124.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.amaze.filemanager_124.apk!classes.dex",
+          "hit": "possible Build.SERIAL check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.amaze.filemanager_124.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.amaze.filemanager_124.apk!classes2.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 3,
+      "compressed_entry_count": 1031,
+      "dex_count": 2,
+      "entry_count": 1411,
+      "file_name": "com.amaze.filemanager_124.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": true
+      },
+      "hardness_score": 6,
+      "high_entropy_entry_count": 4,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 8696072,
+      "local_path": "data/real_world/hard_benign/fdroid_expansion/com.amaze.filemanager_124.apk",
+      "max_sampled_entry_entropy": 7.9966,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 4,
+      "packer_like_hits": [],
+      "resource_count": 1290,
+      "schema_version": 1,
+      "sha256": "5bd6607109be80c3cf0e50f8b2321a53ac9c04c3a3bdb24788130962f4166921",
+      "size_bytes": 12329238,
+      "source": "unknown",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 26
+    },
+    {
+      "all_hits": [
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.foxdebug.acode_1000.apk",
+          "hit": "Resources Confusion"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.foxdebug.acode_1000.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.foxdebug.acode_1000.apk!classes.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.foxdebug.acode_1000.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.foxdebug.acode_1000.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "anti_debug",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.foxdebug.acode_1000.apk!classes2.dex",
+          "hit": "Debug.isDebuggerConnected() check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.foxdebug.acode_1000.apk!classes2.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.foxdebug.acode_1000.apk!classes2.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.foxdebug.acode_1000.apk!classes2.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.foxdebug.acode_1000.apk!classes2.dex",
+          "hit": "Build.PRODUCT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.foxdebug.acode_1000.apk!classes2.dex",
+          "hit": "possible Build.SERIAL check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.foxdebug.acode_1000.apk!classes2.dex",
+          "hit": "r8 without marker (suspicious)"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 395,
+      "compressed_entry_count": 764,
+      "dex_count": 2,
+      "entry_count": 1030,
+      "file_name": "com.foxdebug.acode_1000.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": false
+      },
+      "hardness_score": 5,
+      "high_entropy_entry_count": 3,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 9398364,
+      "local_path": "data/real_world/hard_benign/fdroid_expansion/com.foxdebug.acode_1000.apk",
+      "max_sampled_entry_entropy": 7.9966,
+      "native_abis": [],
+      "native_lib_count": 0,
+      "packer_like_hits": [],
+      "resource_count": 428,
+      "schema_version": 1,
+      "sha256": "8cbe1bde93b7bcfdd3e8f7ad2568eef06647d920907b6cb96bce13684b309422",
+      "size_bytes": 14782764,
+      "source": "unknown",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 150
+    },
+    {
+      "all_hits": [
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.nextcloud.client_330010090.apk",
+          "hit": "Resources Confusion"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.nextcloud.client_330010090.apk!classes.dex",
+          "hit": "unknown (please file detection issue!)"
+        },
+        {
+          "category": "yara_issue",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.nextcloud.client_330010090.apk!classes.dex",
+          "hit": "yara issue - dex file recognized by apkid but not yara module"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.nextcloud.client_330010090.apk!classes2.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.nextcloud.client_330010090.apk!classes2.dex",
+          "hit": "unknown (please file detection issue!)"
+        },
+        {
+          "category": "yara_issue",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.nextcloud.client_330010090.apk!classes2.dex",
+          "hit": "yara issue - dex file recognized by apkid but not yara module"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.nextcloud.client_330010090.apk!classes3.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.nextcloud.client_330010090.apk!classes3.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.nextcloud.client_330010090.apk!classes3.dex",
+          "hit": "unknown (please file detection issue!)"
+        },
+        {
+          "category": "yara_issue",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.nextcloud.client_330010090.apk!classes3.dex",
+          "hit": "yara issue - dex file recognized by apkid but not yara module"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.nextcloud.client_330010090.apk!classes4.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.nextcloud.client_330010090.apk!classes4.dex",
+          "hit": "unknown (please file detection issue!)"
+        },
+        {
+          "category": "yara_issue",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.nextcloud.client_330010090.apk!classes4.dex",
+          "hit": "yara issue - dex file recognized by apkid but not yara module"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.nextcloud.client_330010090.apk!classes5.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.nextcloud.client_330010090.apk!classes5.dex",
+          "hit": "unknown (please file detection issue!)"
+        },
+        {
+          "category": "yara_issue",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.nextcloud.client_330010090.apk!classes5.dex",
+          "hit": "yara issue - dex file recognized by apkid but not yara module"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.nextcloud.client_330010090.apk!classes6.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.nextcloud.client_330010090.apk!classes6.dex",
+          "hit": "unknown (please file detection issue!)"
+        },
+        {
+          "category": "yara_issue",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.nextcloud.client_330010090.apk!classes6.dex",
+          "hit": "yara issue - dex file recognized by apkid but not yara module"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 3,
+      "compressed_entry_count": 2790,
+      "dex_count": 6,
+      "entry_count": 3071,
+      "file_name": "com.nextcloud.client_330010090.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": true,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": true
+      },
+      "hardness_score": 7,
+      "high_entropy_entry_count": 4,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 13781092,
+      "local_path": "data/real_world/hard_benign/fdroid_expansion/com.nextcloud.client_330010090.apk",
+      "max_sampled_entry_entropy": 7.9966,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 12,
+      "packer_like_hits": [],
+      "resource_count": 1493,
+      "schema_version": 1,
+      "sha256": "faaa64b5d88724a6a6461dfb01ed5938f0ffbc111fe53c456ec869d82ec50334",
+      "size_bytes": 78278525,
+      "source": "unknown",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 1420
+    },
+    {
+      "all_hits": [
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.termoneplus_570.apk",
+          "hit": "Resources Confusion"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.termoneplus_570.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.termoneplus_570.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.termoneplus_570.apk!classes.dex",
+          "hit": "possible Build.SERIAL check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.termoneplus_570.apk!classes.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 5,
+      "compressed_entry_count": 831,
+      "dex_count": 1,
+      "entry_count": 1069,
+      "file_name": "com.termoneplus_570.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": false,
+        "native_heavy": true
+      },
+      "hardness_score": 5,
+      "high_entropy_entry_count": 0,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 8995260,
+      "local_path": "data/real_world/hard_benign/fdroid_expansion/com.termoneplus_570.apk",
+      "max_sampled_entry_entropy": 7.9709,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 16,
+      "packer_like_hits": [],
+      "resource_count": 979,
+      "schema_version": 1,
+      "sha256": "fc0ab7c7299011568e41776679b18ed7a92870722beef97c3b3a9dd66a8cd9ff",
+      "size_bytes": 5687069,
+      "source": "unknown",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 9
+    },
+    {
+      "all_hits": [
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.termux.api_1002.apk",
+          "hit": "Resources Confusion"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.termux.api_1002.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.termux.api_1002.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.termux.api_1002.apk!classes.dex",
+          "hit": "Build.BOARD check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.termux.api_1002.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\com.termux.api_1002.apk!classes2.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 2,
+      "compressed_entry_count": 1748,
+      "dex_count": 2,
+      "entry_count": 1966,
+      "file_name": "com.termux.api_1002.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": false,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": false
+      },
+      "hardness_score": 4,
+      "high_entropy_entry_count": 0,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 3084140,
+      "local_path": "data/real_world/hard_benign/fdroid_expansion/com.termux.api_1002.apk",
+      "max_sampled_entry_entropy": 7.8779,
+      "native_abis": [],
+      "native_lib_count": 0,
+      "packer_like_hits": [],
+      "resource_count": 1861,
+      "schema_version": 1,
+      "sha256": "4497dbbf81906df52e59ed387a5223d225aa0de3aca817cc557a621e4dadda44",
+      "size_bytes": 3956196,
+      "source": "unknown",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 41
+    },
+    {
+      "all_hits": [
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\de.westnordost.streetcomplete_6304.apk",
+          "hit": "Resources Confusion"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\de.westnordost.streetcomplete_6304.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\de.westnordost.streetcomplete_6304.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\de.westnordost.streetcomplete_6304.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\de.westnordost.streetcomplete_6304.apk!classes2.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\de.westnordost.streetcomplete_6304.apk!classes3.dex",
+          "hit": "Build.BOARD check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\de.westnordost.streetcomplete_6304.apk!classes3.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\de.westnordost.streetcomplete_6304.apk!classes4.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 4299,
+      "compressed_entry_count": 5114,
+      "dex_count": 4,
+      "entry_count": 6463,
+      "file_name": "de.westnordost.streetcomplete_6304.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": true,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": true
+      },
+      "hardness_score": 7,
+      "high_entropy_entry_count": 82,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 15989700,
+      "local_path": "data/real_world/hard_benign/fdroid_expansion/de.westnordost.streetcomplete_6304.apk",
+      "max_sampled_entry_entropy": 7.9929,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 8,
+      "packer_like_hits": [],
+      "resource_count": 2031,
+      "schema_version": 1,
+      "sha256": "310f128bd5d81b374b9e7d1341574a7689b924c1cd1aa85ef3ceb22ee201153c",
+      "size_bytes": 114988429,
+      "source": "unknown",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 13
+    },
+    {
+      "all_hits": [
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\eu.faircode.email_2315.apk",
+          "hit": "Resources Confusion"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\eu.faircode.email_2315.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\eu.faircode.email_2315.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\eu.faircode.email_2315.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\eu.faircode.email_2315.apk!classes2.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\eu.faircode.email_2315.apk!classes3.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\eu.faircode.email_2315.apk!classes3.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 107,
+      "compressed_entry_count": 4023,
+      "dex_count": 3,
+      "entry_count": 4521,
+      "file_name": "eu.faircode.email_2315.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": true,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": true
+      },
+      "hardness_score": 7,
+      "high_entropy_entry_count": 3,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 10147992,
+      "local_path": "data/real_world/hard_benign/fdroid_expansion/eu.faircode.email_2315.apk",
+      "max_sampled_entry_entropy": 7.9966,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 4,
+      "packer_like_hits": [],
+      "resource_count": 4140,
+      "schema_version": 1,
+      "sha256": "6154673f6282c4d884d7dacb6ae5b264cc3dc4271bec449721bb2f19bfd4e602",
+      "size_bytes": 29257296,
+      "source": "unknown",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 178
+    },
+    {
+      "all_hits": [
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk",
+          "hit": "Resources Confusion"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes2.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes2.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes2.dex",
+          "hit": "possible Build.SERIAL check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes2.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes3.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes3.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes3.dex",
+          "hit": "possible Build.SERIAL check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes3.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes4.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes4.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes4.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes4.dex",
+          "hit": "Build.PRODUCT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes4.dex",
+          "hit": "Build.HARDWARE check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes4.dex",
+          "hit": "Build.BOARD check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes4.dex",
+          "hit": "possible Build.SERIAL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes4.dex",
+          "hit": "network operator name check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes4.dex",
+          "hit": "possible VM check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes4.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes5.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "anti_debug",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes6.dex",
+          "hit": "Debug.isDebuggerConnected() check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes6.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes6.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes6.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes6.dex",
+          "hit": "Build.PRODUCT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes6.dex",
+          "hit": "Build.HARDWARE check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes6.dex",
+          "hit": "Build.TAGS check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes6.dex",
+          "hit": "possible VM check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes6.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes7.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes7.dex",
+          "hit": "Build.MODEL check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes7.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes7.dex",
+          "hit": "Build.PRODUCT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes7.dex",
+          "hit": "ro.kernel.qemu check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes7.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes8.dex",
+          "hit": "Build.HARDWARE check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\im.vector.app_40106524.apk!classes8.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 723,
+      "compressed_entry_count": 5236,
+      "dex_count": 8,
+      "entry_count": 6839,
+      "file_name": "im.vector.app_40106524.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": true,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": true
+      },
+      "hardness_score": 7,
+      "high_entropy_entry_count": 14,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 22390088,
+      "local_path": "data/real_world/hard_benign/fdroid_expansion/im.vector.app_40106524.apk",
+      "max_sampled_entry_entropy": 7.9967,
+      "native_abis": [
+        "x86_64"
+      ],
+      "native_lib_count": 21,
+      "packer_like_hits": [],
+      "resource_count": 3550,
+      "schema_version": 1,
+      "sha256": "66f8aecb050eff7d81c992c03e2186f66adb752729344ae3e24a98a6b4ab4613",
+      "size_bytes": 76538899,
+      "source": "unknown",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 2439
+    },
+    {
+      "all_hits": [
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\net.osmand.plus_521303.apk",
+          "hit": "Resources Confusion"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\net.osmand.plus_521303.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\net.osmand.plus_521303.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\net.osmand.plus_521303.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\net.osmand.plus_521303.apk!classes2.dex",
+          "hit": "unknown (please file detection issue!)"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\net.osmand.plus_521303.apk!classes3.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\net.osmand.plus_521303.apk!classes4.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\net.osmand.plus_521303.apk!classes4.dex",
+          "hit": "r8 without marker (suspicious)"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\net.osmand.plus_521303.apk!classes5.dex",
+          "hit": "r8 without marker (suspicious)"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\net.osmand.plus_521303.apk!classes6.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\net.osmand.plus_521303.apk!classes6.dex",
+          "hit": "r8 without marker (suspicious)"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\net.osmand.plus_521303.apk!classes7.dex",
+          "hit": "r8 without marker (suspicious)"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\net.osmand.plus_521303.apk!classes8.dex",
+          "hit": "r8 without marker (suspicious)"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 4609,
+      "compressed_entry_count": 10922,
+      "dex_count": 8,
+      "entry_count": 16436,
+      "file_name": "net.osmand.plus_521303.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": true,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": true
+      },
+      "hardness_score": 7,
+      "high_entropy_entry_count": 28,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 57270335,
+      "local_path": "data/real_world/hard_benign/fdroid_expansion/net.osmand.plus_521303.apk",
+      "max_sampled_entry_entropy": 7.9986,
+      "native_abis": [
+        "arm64-v8a"
+      ],
+      "native_lib_count": 6,
+      "packer_like_hits": [],
+      "resource_count": 10766,
+      "schema_version": 1,
+      "sha256": "a8093572497436d8873181ac8f610d08c4f4f3a621fe2b447fc8bd9692064c4b",
+      "size_bytes": 157076094,
+      "source": "unknown",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 972
+    },
+    {
+      "all_hits": [
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.connectbot_11005000.apk",
+          "hit": "Resources Confusion"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.connectbot_11005000.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.connectbot_11005000.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.connectbot_11005000.apk!classes.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 3,
+      "compressed_entry_count": 301,
+      "dex_count": 1,
+      "entry_count": 486,
+      "file_name": "org.connectbot_11005000.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": false,
+        "native_heavy": true
+      },
+      "hardness_score": 5,
+      "high_entropy_entry_count": 0,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 5541948,
+      "local_path": "data/real_world/hard_benign/fdroid_expansion/org.connectbot_11005000.apk",
+      "max_sampled_entry_entropy": 7.9661,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 16,
+      "packer_like_hits": [],
+      "resource_count": 345,
+      "schema_version": 1,
+      "sha256": "ad64bf084b8e42c296f64582c65d3d77d755a3db5b04a265001858db0b601f16",
+      "size_bytes": 14344570,
+      "source": "unknown",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 11
+    },
+    {
+      "all_hits": [
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.jellyfin.androidtv_190999.apk",
+          "hit": "Resources Confusion"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.jellyfin.androidtv_190999.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.jellyfin.androidtv_190999.apk!classes2.dex",
+          "hit": "unknown (please file detection issue!)"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.jellyfin.androidtv_190999.apk!classes3.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.jellyfin.androidtv_190999.apk!classes4.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.jellyfin.androidtv_190999.apk!classes4.dex",
+          "hit": "r8 without marker (suspicious)"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.jellyfin.androidtv_190999.apk!classes5.dex",
+          "hit": "r8 without marker (suspicious)"
+        },
+        {
+          "category": "anti_debug",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.jellyfin.androidtv_190999.apk!classes6.dex",
+          "hit": "Debug.isDebuggerConnected() check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.jellyfin.androidtv_190999.apk!classes6.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.jellyfin.androidtv_190999.apk!classes6.dex",
+          "hit": "possible Build.SERIAL check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.jellyfin.androidtv_190999.apk!classes6.dex",
+          "hit": "r8 without marker (suspicious)"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 2,
+      "compressed_entry_count": 740,
+      "dex_count": 6,
+      "entry_count": 1294,
+      "file_name": "org.jellyfin.androidtv_190999.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": true,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": true
+      },
+      "hardness_score": 7,
+      "high_entropy_entry_count": 1,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 12419644,
+      "local_path": "data/real_world/hard_benign/fdroid_expansion/org.jellyfin.androidtv_190999.apk",
+      "max_sampled_entry_entropy": 7.9929,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 8,
+      "packer_like_hits": [],
+      "resource_count": 1153,
+      "schema_version": 1,
+      "sha256": "a3f692fb51d1c59e6b6deb074fdd8e34b90aa544a2550f45e61a267057f7361f",
+      "size_bytes": 21950664,
+      "source": "unknown",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 14
+    },
+    {
+      "all_hits": [
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.kde.kdeconnect_tp_13505.apk",
+          "hit": "Resources Confusion"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.kde.kdeconnect_tp_13505.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.kde.kdeconnect_tp_13505.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.kde.kdeconnect_tp_13505.apk!classes.dex",
+          "hit": "r8"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.kde.kdeconnect_tp_13505.apk!classes2.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 2,
+      "compressed_entry_count": 942,
+      "dex_count": 2,
+      "entry_count": 1143,
+      "file_name": "org.kde.kdeconnect_tp_13505.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": true,
+        "native_heavy": true
+      },
+      "hardness_score": 6,
+      "high_entropy_entry_count": 1,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 6798196,
+      "local_path": "data/real_world/hard_benign/fdroid_expansion/org.kde.kdeconnect_tp_13505.apk",
+      "max_sampled_entry_entropy": 7.9928,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 4,
+      "packer_like_hits": [],
+      "resource_count": 1006,
+      "schema_version": 1,
+      "sha256": "77f61f9ba58d5f6402d5b7ad6a2b2f8904e82ccdd038dbb86b6ab693bb470c4e",
+      "size_bytes": 6474356,
+      "source": "unknown",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 22
+    },
+    {
+      "all_hits": [
+        {
+          "category": "manipulator",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.moire.opensudoku_20260412.apk",
+          "hit": "Resources Confusion"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.moire.opensudoku_20260412.apk!classes.dex",
+          "hit": "Build.FINGERPRINT check"
+        },
+        {
+          "category": "anti_vm",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.moire.opensudoku_20260412.apk!classes.dex",
+          "hit": "Build.MANUFACTURER check"
+        },
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.moire.opensudoku_20260412.apk!classes.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 2,
+      "compressed_entry_count": 608,
+      "dex_count": 1,
+      "entry_count": 771,
+      "file_name": "org.moire.opensudoku_20260412.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": false,
+        "large_entry": false,
+        "many_entries": true,
+        "multi_dex": false,
+        "native_heavy": false
+      },
+      "hardness_score": 3,
+      "high_entropy_entry_count": 1,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 1813628,
+      "local_path": "data/real_world/hard_benign/fdroid_expansion/org.moire.opensudoku_20260412.apk",
+      "max_sampled_entry_entropy": 7.9972,
+      "native_abis": [],
+      "native_lib_count": 0,
+      "packer_like_hits": [],
+      "resource_count": 751,
+      "schema_version": 1,
+      "sha256": "790262c5f44a5988721e7c32d33f5eaa3213e75a503e569f90dd7dd4e1dcd698",
+      "size_bytes": 3114694,
+      "source": "unknown",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 10
+    },
+    {
+      "all_hits": [
+        {
+          "category": "compiler",
+          "filename": "data\\real_world\\hard_benign\\fdroid_expansion\\org.supertuxkart.stk_312.apk!classes.dex",
+          "hit": "r8"
+        }
+      ],
+      "apkid_clean": true,
+      "apkid_error": null,
+      "apkid_version": "3.1.0",
+      "archive_count": 0,
+      "asset_count": 5118,
+      "compressed_entry_count": 2424,
+      "dex_count": 1,
+      "entry_count": 5152,
+      "file_name": "org.supertuxkart.stk_312.apk",
+      "hardness_flags": {
+        "asset_heavy": true,
+        "high_entropy": true,
+        "large_apk": true,
+        "large_entry": true,
+        "many_entries": true,
+        "multi_dex": false,
+        "native_heavy": true
+      },
+      "hardness_score": 6,
+      "high_entropy_entry_count": 141,
+      "label_class": "benign-hard-clean",
+      "largest_entry_size": 30607736,
+      "local_path": "data/real_world/hard_benign/fdroid_expansion/org.supertuxkart.stk_312.apk",
+      "max_sampled_entry_entropy": 7.9963,
+      "native_abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "native_lib_count": 8,
+      "packer_like_hits": [],
+      "resource_count": 19,
+      "schema_version": 1,
+      "sha256": "b6469d2888970b0c87df0c9eb472ea7d12f331f57f7623c6769986209e830a2f",
+      "size_bytes": 165323629,
+      "source": "unknown",
+      "strict_dpt_test_set": false,
+      "train_allowed": true,
+      "unknown_count": 2
+    }
+  ],
+  "schema_version": 1,
+  "selection": {
+    "apk_dirs": [
+      "data/real_world/track_b/benign",
+      "data/real_world/track_b_v2/benign",
+      "data/real_world/hard_benign/fdroid_expansion"
+    ],
+    "apkid_cmd": ".\\.venv\\Scripts\\apkid.exe",
+    "apkid_timeout": 120.0,
+    "hard_threshold": 2
+  },
+  "summary": {
+    "failures": 0,
+    "hard_train_allowed": 24,
+    "label_class_counts": {
+      "benign-borderline": 1,
+      "benign-hard-clean": 43
+    },
+    "records": 44,
+    "train_allowed": 24
+  }
+}

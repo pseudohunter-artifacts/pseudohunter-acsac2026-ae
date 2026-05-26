@@ -1,0 +1,13 @@
+Expected output:
+
+  claim3 ok: strict DPT-v2 hard-benign repair matches expected values
+
+Expected checked values:
+
+  baseline.auroc = 0.6000
+  baseline.benign_mean = 0.8520507149863988
+  hard.auroc = 0.9279778393351801
+  hard.auprc = 0.8972750457588325
+  hard.benign_mean = 0.16610928969759312
+  hard.fpr_at_95_tpr = 0.3157894736842105
+

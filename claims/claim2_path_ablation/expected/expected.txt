@@ -1,0 +1,13 @@
+Expected output:
+
+  claim2 ok: path ablation ordering and AUROC values match expected values
+
+Expected checked values:
+
+  byte-only mean_auroc ~= 0.862
+  ARM64-only mean_auroc ~= 0.854
+  Dalvik-only mean_auroc ~= 0.889
+  Dalvik+byte mean_auroc ~= 0.903
+  naive three-path mean_auroc ~= 0.828
+  routed three-path + dropout mean_auroc = 0.9582010582010582
+

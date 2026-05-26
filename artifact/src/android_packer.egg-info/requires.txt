@@ -1,0 +1,17 @@
+
+[apkid]
+apkid>=2.1.5
+
+[dev]
+pytest>=7
+jsonschema>=4.18
+
+[dl]
+torch<3,>=2.0
+transformers<5,>=4.40
+tokenizers<0.21,>=0.19
+tqdm>=4.60
+
+[metrics]
+numpy>=1.21
+scikit-learn>=1.1

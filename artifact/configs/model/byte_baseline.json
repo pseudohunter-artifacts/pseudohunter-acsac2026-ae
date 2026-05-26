@@ -1,0 +1,17 @@
+{
+  "model": {
+    "name": "byte_baseline",
+    "input_view": "raw_bytes",
+    "max_region_bytes": 4096,
+    "num_classes": 2,
+    "labels": [
+      "benign",
+      "hidden_executable_payload"
+    ]
+  },
+  "features": {
+    "use_entropy": true,
+    "use_printable_ratio": true,
+    "use_byte_histogram": true
+  }
+}

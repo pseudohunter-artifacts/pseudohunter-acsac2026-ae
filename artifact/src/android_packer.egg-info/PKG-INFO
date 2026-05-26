@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: android-packer
+Version: 0.1.0
+Summary: DEX-only hidden executable payload localization prototype for packed Android apps.
+Requires-Python: >=3.9
+Provides-Extra: metrics
+Requires-Dist: numpy>=1.21; extra == "metrics"
+Requires-Dist: scikit-learn>=1.1; extra == "metrics"
+Provides-Extra: apkid
+Requires-Dist: apkid>=2.1.5; extra == "apkid"
+Provides-Extra: dl
+Requires-Dist: torch<3,>=2.0; extra == "dl"
+Requires-Dist: transformers<5,>=4.40; extra == "dl"
+Requires-Dist: tokenizers<0.21,>=0.19; extra == "dl"
+Requires-Dist: tqdm>=4.60; extra == "dl"
+Provides-Extra: dev
+Requires-Dist: pytest>=7; extra == "dev"
+Requires-Dist: jsonschema>=4.18; extra == "dev"

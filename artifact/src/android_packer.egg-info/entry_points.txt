@@ -1,0 +1,14 @@
+[console_scripts]
+android-packer-build-labels = android_packer.cli.build_training_labels:main
+android-packer-experiment-entropy = android_packer.cli.run_synthetic_entropy_baseline:main
+android-packer-experiment-multi-baseline = android_packer.cli.run_synthetic_multi_baseline:main
+android-packer-extract-regions = android_packer.cli.extract_regions:main
+android-packer-generate-packed = android_packer.cli.generate_packed_apk:main
+android-packer-pretrain-mlm = android_packer.cli.pretrain_mlm:main
+android-packer-run-apkid = android_packer.cli.run_apkid_baseline:main
+android-packer-run-entropy = android_packer.cli.run_entropy_baseline:main
+android-packer-run-ngram = android_packer.cli.run_ngram_baseline:main
+android-packer-run-ours = android_packer.cli.run_ours_baseline:main
+android-packer-run-sanity-rules = android_packer.cli.run_sanity_rules_baseline:main
+android-packer-train-ngram = android_packer.cli.train_ngram_baseline:main
+android-packer-train-ours = android_packer.cli.train_ours:main

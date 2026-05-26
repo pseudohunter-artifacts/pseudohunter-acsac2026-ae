@@ -1,0 +1,62 @@
+\begin{figure*}[t]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+    node distance=1.2cm and 1.8cm,
+    box/.style={draw, rounded corners, minimum height=0.8cm, minimum width=2.2cm, align=center, font=\small},
+    stage/.style={draw, dashed, rounded corners=5pt, inner sep=8pt, fill=#1!5},
+    arrow/.style={->, >=stealth, thick},
+    label/.style={font=\footnotesize\bfseries, above}
+]
+
+% Stage 1: Input
+\node[box, fill=purple!15] (apk) {Packed APK\\(ZIP archive)};
+
+% Stage 2: Object Extraction
+\node[box, fill=blue!10, right=of apk] (extract) {Object\\Extraction};
+
+% Stage 3: Typed Instances
+\node[box, fill=cyan!10, right=of extract] (typing) {Typed Instance\\Assignment\\{\footnotesize 6 types, zero-cost}};
+
+% Stage 4: Feature Encoding
+\node[box, fill=green!10, right=of typing] (encode) {Shared Trunk\\+ Per-type Heads\\{\footnotesize 15-dim $\rightarrow$ 64-dim}};
+
+% Stage 5: MIL Pooling
+\node[box, fill=yellow!15, right=of encode] (mil) {Gated Attention\\MIL Pooling\\{\footnotesize $\hat{y}_{bag}$, $\boldsymbol{\alpha}$}};
+
+% Stage 6: Anomaly Scoring
+\node[box, fill=orange!15, right=of mil] (anomaly) {Attention-Anomaly\\Scoring\\{\footnotesize $s_i = (1{-}\frac{\alpha_i}{\max\alpha})\sigma(\hat{y})$}};
+
+% Stage 7: Output
+\node[box, fill=green!20, right=of anomaly] (output) {Localization\\Output\\{\footnotesize APK / Object / Region}};
+
+% Arrows
+\draw[arrow] (apk) -- (extract);
+\draw[arrow] (extract) -- (typing);
+\draw[arrow] (typing) -- (encode);
+\draw[arrow] (encode) -- (mil);
+\draw[arrow] (mil) -- (anomaly);
+\draw[arrow] (anomaly) -- (output);
+
+% Stage labels
+\node[label] at (apk.north) {\circled{1}};
+\node[label] at (extract.north) {\circled{2}};
+\node[label] at (typing.north) {\circled{3}};
+\node[label] at (encode.north) {\circled{4}};
+\node[label] at (mil.north) {\circled{5}};
+\node[label] at (anomaly.north) {\circled{6}};
+\node[label] at (output.north) {\circled{7}};
+
+% Training signal annotation
+\node[below=0.6cm of mil, font=\footnotesize\itshape, text=red!70!black] (train) {Training: only APK-level $y \in \{0,1\}$};
+\draw[->, dashed, red!50] (train) -- (mil);
+
+% Key insight annotation
+\node[below=0.6cm of anomaly, font=\footnotesize\itshape, text=orange!70!black, text width=3cm, align=center] (insight) {Low attention\\= anomalous\\= payload};
+\draw[->, dashed, orange!50] (insight) -- (anomaly);
+
+\end{tikzpicture}%
+}
+\caption{Overview of our Typed-Instance MIL Localization system. An APK is treated as a bag of typed objects; gated attention MIL is trained with only APK-level labels. At inference, low-attention instances are flagged as anomalous payload candidates via attention-anomaly scoring.}
+\label{fig:architecture}
+\end{figure*}

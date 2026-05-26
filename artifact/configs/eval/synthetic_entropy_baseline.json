@@ -1,0 +1,40 @@
+{
+  "input": {
+    "seed_manifest": "data/synthetic/seed_apks_manifest.json"
+  },
+  "synthetic": {
+    "transform_families": [
+      "path_randomized",
+      "xor",
+      "base64",
+      "split_xor",
+      "signature_strip"
+    ],
+    "asset_prefix": "assets/synthetic",
+    "rng_seed": 0,
+    "split_count": 2
+  },
+  "regioning": {
+    "window_size": 4096,
+    "stride": 2048,
+    "min_region_size": 1,
+    "include_tail": true,
+    "max_depth": 1,
+    "max_member_bytes": null
+  },
+  "labeling": {
+    "min_overlap_bytes": 1,
+    "min_overlap_ratio": 0.0
+  },
+  "baseline": {
+    "entropy_threshold": 7.0,
+    "entropy_weight": 1.0,
+    "nonprintable_weight": 0.0
+  },
+  "outputs": {
+    "output_root": "outputs/experiments/synthetic_entropy_baseline",
+    "synthetic_generated_dir": "data/synthetic/generated_apks",
+    "synthetic_manifest_dir": "data/synthetic/manifests",
+    "synthetic_label_dir": "data/synthetic/labels"
+  }
+}

@@ -1,0 +1,65 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "android-packer"
+version = "0.1.0"
+description = "DEX-only hidden executable payload localization prototype for packed Android apps."
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+# ``metrics`` enables the richer evaluation module (AUROC, AUPRC, MRR, etc.).
+# The core pipeline stays standard-library only so baseline experiments still
+# run without these dependencies installed.
+metrics = [
+    "numpy>=1.21",
+    "scikit-learn>=1.1",
+]
+# ``apkid`` enables the APKiD reference baseline (YARA-backed Android packer
+# fingerprint tool from RedNaga). APKiD 3.x installs a ready-to-run CLI; older
+# 2.x environments may still require a one-time ``apkid --prepare``.
+apkid = [
+    "apkid>=2.1.5",
+]
+# ``dl`` enables the Ours method (DexBERT-Loc): byte-level RoBERTa encoder,
+# MLM pretraining, and supervised fine-tuning. These imports are confined to
+# ``android_packer.models`` / ``training`` / ``baselines.ours`` and are loaded
+# lazily, so the core pipeline continues to run without this extra.
+dl = [
+    "torch>=2.0,<3",
+    "transformers>=4.40,<5",
+    "tokenizers>=0.19,<0.21",
+    "tqdm>=4.60",
+]
+# ``dev`` groups tools useful during development. Keep it minimal; add heavy
+# optional extras to their own group instead of bundling everything here.
+dev = [
+    "pytest>=7",
+    "jsonschema>=4.18",
+]
+
+[project.scripts]
+android-packer-extract-regions = "android_packer.cli.extract_regions:main"
+android-packer-generate-packed = "android_packer.cli.generate_packed_apk:main"
+android-packer-build-labels = "android_packer.cli.build_training_labels:main"
+android-packer-run-entropy = "android_packer.cli.run_entropy_baseline:main"
+android-packer-run-sanity-rules = "android_packer.cli.run_sanity_rules_baseline:main"
+android-packer-run-apkid = "android_packer.cli.run_apkid_baseline:main"
+android-packer-train-ngram = "android_packer.cli.train_ngram_baseline:main"
+android-packer-run-ngram = "android_packer.cli.run_ngram_baseline:main"
+android-packer-experiment-entropy = "android_packer.cli.run_synthetic_entropy_baseline:main"
+android-packer-experiment-multi-baseline = "android_packer.cli.run_synthetic_multi_baseline:main"
+# F-MIL-c: byte-MLM + grammar-aware aux pre-training (dry-run CI-safe).
+android-packer-pretrain-mlm = "android_packer.cli.pretrain_mlm:main"
+# F-MIL-e: Ours (Typed-Instance MIL) train + infer CLIs.
+android-packer-train-ours = "android_packer.cli.train_ours:main"
+android-packer-run-ours = "android_packer.cli.run_ours_baseline:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

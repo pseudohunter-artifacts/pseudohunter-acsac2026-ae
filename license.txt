@@ -1,0 +1,48 @@
+PseudoHunter Artifact License Notice
+====================================
+
+License names and URLs
+----------------------
+
+Source code:
+  Apache License, Version 2.0
+  https://www.apache.org/licenses/LICENSE-2.0
+
+Documentation and result summaries:
+  Creative Commons Attribution 4.0 International
+  https://creativecommons.org/licenses/by/4.0/
+
+Source code license
+-------------------
+
+Unless otherwise noted, the source code in artifact/src, artifact/scripts,
+artifact/tools, install.sh, infrastructure/Dockerfile, and claims/*/run.sh is
+released under the Apache License, Version 2.0. The full license text is
+included in licenses/APACHE-2.0.txt.
+
+Documentation and result summaries
+----------------------------------
+
+Unless otherwise noted, documentation files, claim descriptions, expected-output
+notes, configuration examples, and paper-result JSON summaries are released
+under the Creative Commons Attribution 4.0 International license (CC BY 4.0).
+The full license text is included in licenses/CC-BY-4.0.txt.
+
+Third-party notices
+-------------------
+
+This artifact may include references to external tools, datasets, and packages.
+Those third-party materials remain under their original licenses and terms. The
+artifact does not relicense them.
+
+Data redistribution notice
+--------------------------
+
+APK and DEX binaries are not redistributed by this artifact. External datasets
+must be obtained by reviewers through their original sources under their own
+terms.
+
+This artifact must not contain APK, DEX, ZIP, Android App Bundle, model
+checkpoint, private runtime trace, credential, API key, local log, or other
+non-redistributable binary files. The included manifest and hash metadata is for
+reproducibility and audit only.

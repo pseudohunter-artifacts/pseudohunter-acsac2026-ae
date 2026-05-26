@@ -1,0 +1,62 @@
+{
+  "input": {
+    "seed_manifest": "data/synthetic/seed_apks_manifest.json"
+  },
+  "outputs": {
+    "output_root": "outputs/experiments/ablation_no_type_embedding",
+    "synthetic_generated_dir": "data/synthetic/generated_apks_v4",
+    "synthetic_manifest_dir": "data/synthetic/manifests_v4",
+    "synthetic_label_dir": "data/synthetic/labels_v4"
+  },
+  "synthetic": {
+    "transform_families": [
+      "xor",
+      "base64",
+      "split_xor",
+      "path_randomized",
+      "signature_strip",
+      "embedded_asset",
+      "so_embedded",
+      "dex_method_inlined",
+      "multi_dex_shim",
+      "embedded_archive",
+      "dex_string_encrypted"
+    ],
+    "rng_seed": 42,
+    "asset_prefix": "assets/payload",
+    "split_count": 3
+  },
+  "regioning": {
+    "window_size": 4096,
+    "stride": 2048,
+    "min_region_size": 256,
+    "include_tail": true,
+    "max_depth": 2,
+    "max_member_bytes": 67108864
+  },
+  "labeling": {
+    "min_overlap_bytes": 64,
+    "min_overlap_ratio": 0.1
+  },
+  "baselines": {
+    "enabled": [],
+    "ours": {
+      "train_mode": "holdout_transform",
+      "supervision_mode": "bag",
+      "scoring_mode": "attention_auto",
+      "epochs": 3,
+      "batch_size": 4,
+      "learning_rate": 1e-3,
+      "weight_decay": 1e-4,
+      "lambda_diff_pseudo": 0.0,
+      "lambda_sparsity": 0.01,
+      "bag_pos_weight": 1.0,
+      "random_state": 0,
+      "verbose": true,
+      "train_max_bag_size": 256,
+      "train_min_positive_fraction": 0.01,
+      "threshold": 0.78,
+      "n_types": 1
+    }
+  }
+}

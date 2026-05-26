@@ -1,0 +1,17 @@
+Claim 2: Path ablation
+======================
+
+PseudoHunter's three pseudo-instruction paths are useful only when path
+reliability is controlled. Naive three-path concatenation underperforms
+Dalvik+byte, while typed routing plus path dropout gives the strongest LOPO
+AUROC.
+
+The verifier checks these expected AUROC values:
+
+  * byte-only: 0.862
+  * ARM64-only: 0.854
+  * Dalvik-only: 0.889
+  * Dalvik+byte: 0.903
+  * naive three-path: 0.828
+  * routed three-path + dropout: 0.9582
+

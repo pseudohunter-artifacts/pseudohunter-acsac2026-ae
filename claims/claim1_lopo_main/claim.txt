@@ -1,0 +1,17 @@
+Claim 1: Main LOPO result
+=========================
+
+The routed Dalvik/ARM64/byte PseudoHunter model with typed path routing and
+path dropout reaches mean APK AUROC 0.9582 under the 7-fold Leave-One-Packer-
+Out evaluation.
+
+This claim is verified from:
+
+  artifact/paper_results/path_ablation/lopo_results_routing_path_dropout_full.json
+
+The verifier checks:
+
+  * n_folds = 7
+  * mean_auroc ~= 0.9582010582
+  * mean_detection_rate ~= 0.9904761905
+

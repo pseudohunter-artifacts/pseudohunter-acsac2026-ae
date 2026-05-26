@@ -1,0 +1,10 @@
+Claim 4: Artifact smoke check
+=============================
+
+The artifact package can be installed and imported in a clean Python
+environment. This is a fast smoke check for reviewers before optional deeper
+experiments.
+
+The verifier imports the android_packer package and validates that the claim
+verification tool itself is available.
+

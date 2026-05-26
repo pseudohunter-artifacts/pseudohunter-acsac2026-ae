@@ -1,0 +1,17 @@
+# holdout-by-packer split placeholder (Track B / Stage B scope).
+#
+# Source of truth: ``docs/method/dataset_plan.md`` §3.6 ("Seen-Unseen
+# 切分"). Once Track B is populated (batch B-c), the ``groups`` list
+# below gets filled with the concrete packer names, and downstream
+# code (multi-baseline runner's ``holdout_packer`` train_mode) picks
+# them up via this file.
+#
+# Currently empty so Stage A code paths that reference it can fail
+# gracefully with "Track B not populated yet" rather than a file-not-
+# found error.
+
+holdout_group: packer_family
+
+# Populated during batch B-c; see ``configs/data/track_b_packers.yaml``
+# for the canonical packer source-of-truth once that file exists.
+groups: []

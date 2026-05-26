@@ -1,0 +1,10 @@
+Expected output:
+
+  claim1 ok: LOPO mean AUROC and detection rate match expected values
+
+Expected checked values:
+
+  n_folds = 7
+  mean_auroc = 0.9582010582010582
+  mean_detection_rate = 0.9904761904761905
+

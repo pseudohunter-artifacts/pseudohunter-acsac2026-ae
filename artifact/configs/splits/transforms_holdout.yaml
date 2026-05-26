@@ -1,0 +1,35 @@
+# holdout-by-transform split config (Track A v2).
+#
+# Source of truth: ``docs/method/dataset_plan.md`` §2.4 ("Seen-Unseen
+# 切分"). For each listed transform family, leave its tasks out of the
+# training set and evaluate on them to get an honest out-of-distribution
+# number. Produces 11 folds under the A-v2 benchmark.
+#
+# Consumed by ``scripts/sweep_baselines.py`` and (eventually) the
+# ``--ngram-train-mode holdout_transform`` flag on
+# ``run_synthetic_multi_baseline.py`` (F-Lite-e batch).
+#
+# Keep this file in-sync with
+# ``configs/eval/synthetic_multi_baseline.json``'s
+# ``synthetic.transform_families`` list; every family in the eval
+# config must appear here and vice versa.
+
+holdout_group: transform_family
+
+groups:
+  # Gen1 whole-object family
+  - xor
+  - base64
+  - split_xor
+  - path_randomized
+  # Gen2 header tampering
+  - signature_strip
+  # Gen2+ shim DEX loader
+  - multi_dex_shim
+  # Gen3 sub-range
+  - embedded_asset
+  - so_embedded
+  - dex_method_inlined
+  # Gen3 nested container & string-pool encryption (A-v2-b additions)
+  - embedded_archive
+  - dex_string_encrypted

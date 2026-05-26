@@ -1,0 +1,31 @@
+{
+  "metrics": {
+    "apk_level": [
+      "detection_rate",
+      "false_positive_rate",
+      "auroc"
+    ],
+    "object_level": [
+      "object_f1",
+      "top_1_hit",
+      "top_3_hit",
+      "mean_reciprocal_rank"
+    ],
+    "region_level": [
+      "precision",
+      "recall",
+      "f1",
+      "auroc"
+    ],
+    "localization": [
+      "iou",
+      "boundary_error",
+      "offset_hit_rate"
+    ]
+  },
+  "thresholds": {
+    "object_score": 0.5,
+    "region_score": 0.5,
+    "iou": 0.5
+  }
+}

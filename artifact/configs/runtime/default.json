@@ -1,0 +1,12 @@
+{
+  "evidence": {
+    "collect_class_loader_events": true,
+    "collect_file_write_events": true,
+    "collect_recovered_dex_hash": true
+  },
+  "outputs": {
+    "traces_dir": "data/runtime/traces",
+    "recovered_dex_dir": "data/runtime/recovered_dex",
+    "alignments_dir": "data/runtime/alignments"
+  }
+}

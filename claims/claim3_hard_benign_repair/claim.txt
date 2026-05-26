@@ -1,0 +1,14 @@
+Claim 3: Strict DPT-v2 hard-benign repair
+=========================================
+
+The strict app-disjoint DPT-v2 split initially exposes a ranking failure. The
+no-hard-benign routed baseline has AUROC 0.6000 and benign mean score 0.8521.
+Adding 24 APKiD-clean F-Droid hard benign applications repairs the split to
+AUROC 0.9280, AUPRC 0.8973, benign mean 0.1661, and FPR@95TPR 0.3158.
+
+The verifier checks:
+
+  * baseline strict DPT result JSON;
+  * F-Droid24 hard-benign strict DPT result JSON;
+  * improvement direction and expected numeric values.
+

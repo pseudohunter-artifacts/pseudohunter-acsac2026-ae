@@ -1,0 +1,4 @@
+Expected output:
+
+  claim4 ok: android_packer imports successfully
+
